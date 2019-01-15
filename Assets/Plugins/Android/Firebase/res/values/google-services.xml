@@ -1,0 +1,11 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources tools:keep="@string/firebase_database_url,@string/gcm_defaultSenderId,@string/google_storage_bucket,@string/project_id,@string/google_api_key,@string/google_crash_reporting_api_key,@string/google_app_id,@string/default_web_client_id" xmlns:tools="http://schemas.android.com/tools">
+  <string name="firebase_database_url" translatable="false">https://appbotox.firebaseio.com</string>
+  <string name="gcm_defaultSenderId" translatable="false">694638094160</string>
+  <string name="google_storage_bucket" translatable="false">appbotox.appspot.com</string>
+  <string name="project_id" translatable="false">appbotox</string>
+  <string name="google_api_key" translatable="false">AIzaSyB1lu25Wsj_2ycYlj7nNZZLlDp6kUt42_A</string>
+  <string name="google_crash_reporting_api_key" translatable="false">AIzaSyB1lu25Wsj_2ycYlj7nNZZLlDp6kUt42_A</string>
+  <string name="google_app_id" translatable="false">1:694638094160:android:a90e38c8e29d583e</string>
+  <string name="default_web_client_id" translatable="false">694638094160-en6aian3e51vib6jg479fedsd8nqo5n2.apps.googleusercontent.com</string>
+</resources>

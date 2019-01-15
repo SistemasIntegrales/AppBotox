@@ -1,0 +1,249 @@
+newmtl Musculos_Cabeza_1:Buccinator:Buccinator_blinnSG
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+map_Kd Buccinator.jpg
+Ni 1.00
+newmtl Musculos_Cabeza_1:Buccinator:lambert1SG
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+map_Kd Levator_Anguli_Oris.jpg
+Ni 1.00
+newmtl Musculos_Cabeza_1:Digastric:Digastric_blinnSG
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+map_Kd Digastric.jpg
+Ni 1.00
+newmtl Musculos_Cabeza_1:Eyes:Eyes_blinnSG
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+map_Kd eyes.jpg
+Ni 1.00
+Ks 0.50 0.50 0.50
+newmtl Musculos_Cabeza_1:Frontalis:Frontalis_blinnSG
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+map_Kd Frontalis.jpg
+Ni 1.00
+newmtl Musculos_Cabeza_1:Hyoid1:Hyoid_blinnSG
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+map_Kd Hyoid.jpg
+Ni 1.00
+newmtl Musculos_Cabeza_1:Lateral_Cartilage:lambert3SG
+illum 4
+Kd 0.70 0.58 0.53
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+Ni 1.00
+newmtl Musculos_Cabeza_1:Lateral_Cartilage:lambert4SG
+illum 4
+Kd 0.72 0.59 0.54
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+Ni 1.00
+newmtl Musculos_Cabeza_1:Levator_Anguli_Oris:lambert1SG
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+map_Kd Depresor_Labi_Inferioris.jpg
+Ni 1.00
+newmtl Musculos_Cabeza_1:Levator_Labii_Superioris:lambert1SG
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+map_Kd Zygomatic_Minor.jpg
+Ni 1.00
+newmtl Musculos_Cabeza_1:Levator_Labii_Superioris_Alaque_Nasi:lambert2SG
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+map_Kd Levator_Labi_Superioris.jpg
+Ni 1.00
+newmtl Musculos_Cabeza_1:Levator_Scapulae:lambert1SG
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+map_Kd Splenius_Capitis.jpg
+Ni 1.00
+newmtl Musculos_Cabeza_1:Massetter:Massetter_blinnSG
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+map_Kd massetter.jpg
+Ni 1.00
+newmtl Musculos_Cabeza_1:Mentalis:Mentalis_blinnSG
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+map_Kd Mentalis.jpg
+Ni 1.00
+newmtl Musculos_Cabeza_1:Mylohyoid:Mylohyoid_blinnSG
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+map_Kd Mylohyoid.jpg
+Ni 1.00
+newmtl Musculos_Cabeza_1:Obicularis_Oculi:phong1SG
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+map_Kd Depresor_supercili.jpg
+Ni 1.00
+newmtl Musculos_Cabeza_1:Obicularis_Oculi:phong2SG
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+map_Kd levator_labi_superioris_alaque_nasi.jpg
+Ni 1.00
+newmtl Musculos_Cabeza_1:Obicularis_Oculi:phong3SG
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+map_Kd Lateral_Cartilage.jpg
+Ni 1.00
+newmtl Musculos_Cabeza_1:Omohyoid:Omohyoid_blinnSG
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+map_Kd Omohyoid.jpg
+Ni 1.00
+newmtl Musculos_Cabeza_1:Orbicularis_Oris:lambert1SG
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+map_Kd Orbicularis_Oris.jpg
+Ni 1.00
+newmtl Musculos_Cabeza_1:Oreja:Oreja_blinnSG
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+map_Kd ears.jpg
+Ni 1.00
+newmtl Musculos_Cabeza_1:Pectoralis1:Pectoralis_blinnSG
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+map_Kd Pectoralis.jpg
+Ni 1.00
+newmtl Musculos_Cabeza_1:Procerus:Procerus_blinnSG
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+map_Kd Procerus.jpg
+Ni 1.00
+newmtl Musculos_Cabeza_1:Scalenus_Medius:lambert2SG
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+map_Kd Levator_Scapulae.jpg
+Ni 1.00
+newmtl Musculos_Cabeza_1:Sternocletomastoid:Sternocletomastoid_blinnSG
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+map_Kd Sternocletomastoid.jpg
+Ni 1.00
+newmtl Musculos_Cabeza_1:Sternohyoid:Sternohyoid_blinnSG
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+map_Kd Sternohyoid.jpg
+Ni 1.00
+newmtl Musculos_Cabeza_1:Temporalis:Temporalis_blinnSG
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+map_Kd Temporallis.jpg
+Ni 1.00
+newmtl Musculos_Cabeza_1:Trapezius:Trapezius_blinnSG
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+map_Kd Trapezius.jpg
+Ni 1.00
+newmtl Musculos_Cabeza_1:Zygomatic_Major:lambert1SG
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+map_Kd Risorius.jpg
+Ni 1.00
+newmtl Musculos_Cabeza_1:Zygomatic_Minor:lambert1SG
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+map_Kd Zygomatic_Major.jpg
+Ni 1.00
+newmtl Musculos_Cabeza_1:lambert3SG
+illum 4
+Kd 0.76 0.70 0.53
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+Ni 1.00
+newmtl Musculos_Cabeza_1:phong1SG
+illum 4
+Kd 0.79 0.65 0.59
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+Ni 1.00
+newmtl Musculos_Cabeza_1:phong2SG
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+map_Kd Scalenus_Medius.jpg
+Ni 1.00
+newmtl Musculos_Cabeza_1:phong3SG
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+map_Kd Obicularis Oculi.jpg
+Ni 1.00
+newmtl Musculos_Cabeza_1:phong4SG
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+map_Kd Brow.jpg
+Ni 1.00
+newmtl Musculos_Cabeza_1:phong5SG
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+map_Kd Depressor_Anguli_Oris.jpg
+Ni 1.00
