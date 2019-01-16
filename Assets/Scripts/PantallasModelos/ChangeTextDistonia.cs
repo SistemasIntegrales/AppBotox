@@ -52,7 +52,7 @@ public class ChangeTextDistonia : MonoBehaviour
 	void MostrarTodosMusculos()
 	{
 		float alpha = 1f;
-		float modo = 0f;
+		float modo = 0;
 		foreach (GameObject tapa in ocultarEscapulae)
 		{
 			TransparentarMusculos(tapa, alpha, modo);
@@ -114,9 +114,9 @@ public class ChangeTextDistonia : MonoBehaviour
 	void TransparentarMusculos(GameObject musculo, float alpha, float modo)
 	{
 		SkinnedMeshRenderer[] skinnyRenders = musculo.GetComponentsInChildren<SkinnedMeshRenderer>();
-		foreach (SkinnedMeshRenderer rend in skinnyRenders)
+		foreach (SkinnedMeshRenderer skinnyRender in skinnyRenders)
 		{
-			Material[] mats = rend.materials;
+			Material[] mats = skinnyRender.materials;
 			foreach (Material m in mats)
 			{
 				Color c = m.color;
@@ -124,16 +124,46 @@ public class ChangeTextDistonia : MonoBehaviour
 				c.a = alpha;
 				m.color = c;
 				m.SetFloat("_Mode", modo);
+				m.SetInt("_SrcBlend", (int)UnityEngine.Rendering.BlendMode.SrcAlpha);
+				m.SetInt("_DstBlend", (int)UnityEngine.Rendering.BlendMode.OneMinusSrcAlpha);
+				//m.SetInt("_ZWrite", 0); //Modo Transparente
+				m.SetInt("_ZWrite", 1); //Modo Opacidad
+				m.DisableKeyword("_ALPHATEST_ON");
+				m.EnableKeyword("_ALPHABLEND_ON");
+				m.DisableKeyword("_ALPHAPREMULTIPLY_ON");
+
+				if (modo!=3)
+				{
+					m.renderQueue = -1;
+				}
+				else
+				{
+					m.renderQueue = 3000;
+				}
+				
+				/*Color c = m.color;
+				c.a = alpha;
+				m.color = c;
+				m.SetFloat("_Mode", modo);
+				m.SetInt("_SrcBlend", (int)UnityEngine.Rendering.BlendMode.One);
+				m.SetInt("_DstBlend", (int)UnityEngine.Rendering.BlendMode.OneMinusSrcAlpha);
+				//m.SetInt("_ZWrite", 0); //Modo Transparente
+				//m.SetInt("_ZWrite", 1); //Modo Opacidad
+				m.DisableKeyword("_ALPHATEST_ON");
+				m.EnableKeyword("_ALPHABLEND_ON");
+				m.DisableKeyword("_ALPHAPREMULTIPLY_ON");
+				//m.renderQueue = 3000;*/
 			}
-			rend.materials = mats;
+			skinnyRender.materials = mats;
 		}
+		
 	}
 
 	public void CambiarInfoDistonia(int id)
 	{
 		MostrarTodosMusculos();
 		float alpha = 0.2f;
-		float modo = 3f;
+		float modo = 3;
 		switch (id)
 		{
 			//Antecaput
