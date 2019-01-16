@@ -34,24 +34,24 @@ public GameObject[] puntosAlicacion, puntosDolor;
 	private string[] infoPuntosAplicacion = new[]
 	{
 		//1
-		"Aplicar 5U, con aguja a 45 grados. \nFormar línea imaginaria del trago de la oreja hacia el borde más superior del músculo temporal.",
+		"Aplicar 5U, con aguja a 45 grados. \n\nFormar línea imaginaria del trago de la oreja hacia el borde más superior del músculo temporal.",
 		
-		"Aplicar 5U, con aguja a 45 grados. \nFormar línea imaginaria del trago de la oreja hacia el borde más superior del músculo temporal." +
+		"Aplicar 5U, con aguja a 45 grados. \n\nFormar línea imaginaria del trago de la oreja hacia el borde más superior del músculo temporal." +
 		"\nInyectar 3cm por debajo del punto temporal derecho 1.",
 		
-		"Aplicar 5U, con aguja a 45 grados. Borde más anterior del músculo temporal, dentro de la línea de inserción del pelo.",
+		"Aplicar 5U, con aguja a 45 grados. \n\nBorde más anterior del músculo temporal, dentro de la línea de inserción del pelo.",
 		
-		"Aplicar 5U, con aguja a 45 grados. \nFormar línea imaginaria desde la mitad del hélix del pabellón auricular hacia el borde superior del músculo temporal.",
+		"Aplicar 5U, con aguja a 45 grados. \n\nFormar línea imaginaria desde la mitad del hélix del pabellón auricular hacia el borde superior del músculo temporal.",
 		
 		//5
-		"Aplicar 5U, con aguja a 45 grados. \nFormar línea imaginaria del trago de la oreja hacia el borde más superior del músculo temporal.",
+		"Aplicar 5U, con aguja a 45 grados. \n\nFormar línea imaginaria del trago de la oreja hacia el borde más superior del músculo temporal.",
 		
-		"Aplicar 5U, con aguja a 45 grados. \nFormar línea imaginaria del trago de la oreja hacia el borde más superior del músculo temporal." +
+		"Aplicar 5U, con aguja a 45 grados. \n\nFormar línea imaginaria del trago de la oreja hacia el borde más superior del músculo temporal." +
 		"\nInyectar 3cm por debajo del punto temporal izquierdo 1.",
 		
-		"Aplicar 5U, con aguja a 45 grados. Borde más anterior del músculo temporal, dentro de la línea de inserción del pelo.",
+		"Aplicar 5U, con aguja a 45 grados. \n\nBorde más anterior del músculo temporal, dentro de la línea de inserción del pelo.",
 		
-		"Aplicar 5U, con aguja a 45 grados. \nFormar línea imaginaria desde la mitad del hélix del pabellón auricular hacia el borde superior del músculo temporal.",
+		"Aplicar 5U, con aguja a 45 grados. \n\nFormar línea imaginaria desde la mitad del hélix del pabellón auricular hacia el borde superior del músculo temporal.",
 		
 		"Aplicar 5U, con aguja a 90 grados.",
 		
@@ -64,70 +64,70 @@ public GameObject[] puntosAlicacion, puntosDolor;
 		" indispensable para aplicación de las dosis.",
 		
 		//Paraespinal 1 derecho
-		"Aplicar 5U, aguja a 45 grados. \nPalpar línea nucal, inyectar 3 centímetros por debajo de la línea nucal y un centímetro lateral a la línea media." +
+		"Aplicar 5U, aguja a 45 grados. \n\nPalpar línea nucal, inyectar 3 centímetros por debajo de la línea nucal y un centímetro lateral a la línea media." +
 		"\nLo anterior dentro del borde de inserción del pelo.",
 		//Paraespinal 2 derecho
-		"Aplicar 5U, aguja a 45 grados. \nInyectar 2 centímetros por arriba, 1 cm lateral al (nervio occipital derecho 1)Paraespinal 1 derecho.",
+		"Aplicar 5U, aguja a 45 grados. \n\nInyectar 2 centímetros por arriba, 1 cm lateral al nervio occipital derecho 1",//Paraespinal 1 derecho.",
 		//Paraespinal 1 izq
-		"Aplicar 5U, aguja a 45 grados. \nPalpar línea nucal, inyectar 3 centímetros por debajo de la línea nucal y un centímetro lateral a la línea media." +
+		"Aplicar 5U, aguja a 45 grados. \n\nPalpar línea nucal, inyectar 3 centímetros por debajo de la línea nucal y un centímetro lateral a la línea media." +
 		"\nLo anterior dentro del borde de inserción del pelo.",
 		
-		"Aplicar 5U, aguja a 45 grados. \nInyectar 2 centímetros por arriba, 1 cm lateral al (nervio occipital izquierdo 1)Paraespinal 1 izquierdo.",
+		"Aplicar 5U, aguja a 45 grados. \n\nInyectar 2 centímetros por arriba, 1 cm lateral al nervio occipital izquierdo 1",//Paraespinal 1 izquierdo.",
 		
 		//16 - nerv occ mayor der
-		"Aplicar 5U, con aguja a 45 grados. \nTres centímetros por encima y un centímetro medial al nervio occipital menor derecho 1.",
+		"Aplicar 5U, con aguja a 45 grados. \n\nTres centímetros por encima y un centímetro medial al nervio occipital menor derecho 1.",
 		
-		"Aplicar 5U, con aguja a 45 grados. \nTres centímetros por encima y un centímetro medial al nervio occipital menor derecho 1.",
+		"Aplicar 5U, con aguja a 45 grados. \n\nTres centímetros por encima y un centímetro medial al nervio occipital menor derecho 1.",
 		
-		"Aplicar 5U, con aguja a 45 grados. \nFormar línea imaginaria entre el inion y la apófisis mastoides derecha, " +
+		"Aplicar 5U, con aguja a 45 grados. \n\nFormar línea imaginaria entre el inion y la apófisis mastoides derecha, " +
 		"inyectar en el punto medio de la línea imaginaria.",
 		
-		"Aplicar 5U, con aguja a 45 grados. \n Tres centímetros por encima y un centímetro lateral al nervio occipital menor derecho 1.",
+		"Aplicar 5U, con aguja a 45 grados. \n\n Tres centímetros por encima y un centímetro lateral al nervio occipital menor derecho 1.",
 		
-		"Aplicar 5U, con aguja a 45 grados. \nFormar línea imaginaria entre el inion y la apófisis mastoides izquierda, " +
+		"Aplicar 5U, con aguja a 45 grados. \n\nFormar línea imaginaria entre el inion y la apófisis mastoides izquierda, " +
 		"inyectar en el punto medio de la línea imaginaria.",
 		
 		//Nerv occ menor izq 1
-		"Aplicar 5U, con aguja a 45 grados. \n Tres centímetros por encima y un centímetro lateral al nervio occipital menor izquierdo 1.",
+		"Aplicar 5U, con aguja a 45 grados. \n\nTres centímetros por encima y un centímetro lateral al nervio occipital menor izquierdo 1.",
 		
 		//Trapecio 2 derecho - Nerv supracalv derecho 1
 		"Aplicar 5U, con aguja a 90 grados (subcutáneo)." +
-		"\nInyectar en el punto medio formado del cuello al (Nerv supracalv derecho 2) trapecio 1 derecho.",
+		"\n\nInyectar en el punto medio formado del cuello al nervio supra calvicular derecho 2",// trapecio 1 derecho.",
 		
 		//Trapecio 1 derecho - Nerv supracalv derecho 2
 		"Aplicar 5U, con aguja a 90 grados (subcutáneo)." +
-		"\nFormar línea imaginaria del acromion derecho al cuello, inyectar en el punto medio de la línea imaginaria.",
+		"\n\nFormar línea imaginaria del acromion derecho al cuello, inyectar en el punto medio de la línea imaginaria.",
 		
 		//Trapecio 3 derecho - Nerv supracalv derecho 3
 		"Aplicar 5U, con aguja a 90 grados (subcutáneo)." +
-		"\nInyectar en el punto medio formado del (Nerv supracalv derecho 2) trapecio 1 derecho al acromion.",
+		"\n\nInyectar en el punto medio formado del nervio supra calvicular derecho 2",// trapecio 1 derecho al acromion.",
 		
 		
 		//Trapecio 2 izquierdo - Nerv supracalv derecho 1
 		"Aplicar 5U, con aguja a 90 grados (subcutáneo)." +
-		"\nInyectar en el punto medio formado del cuello al (Nerv supracalv izquierdo 2) trapecio 1 izquierdo.",
+		"\n\nInyectar en el punto medio formado del cuello al nervio supra calvicular izquierdo 2",// trapecio 1 izquierdo.",
 		
 		//Trapecio 1 izquierdo - Nerv supracalv derecho 2
 		"Aplicar 5U, con aguja a 90 grados (subcutáneo)." +
-		"\nFormar línea imaginaria del acromion derecho al cuello, inyectar en el punto medio de la línea imaginaria.",
+		"\n\nFormar línea imaginaria del acromion derecho al cuello, inyectar en el punto medio de la línea imaginaria.",
 		
 		//Trapecio 3 izquierdo - Nerv supracalv derecho 3
 		"Aplicar 5U, con aguja a 90 grados (subcutáneo)." +
-		"\nInyectar en el punto medio formado del (Nerv supracalv izquierdo 2) trapecio 1 izquierdo al acromion.",
+		"\n\nInyectar en el punto medio formado del nervio supra calvicular izquierdo 2",// trapecio 1 izquierdo al acromion.",
 		
 		//Procer
 		"Aplicar 5U, con aguja a 90 grados.",
 		
-		"Aplicar 5U, con aguja a 45 grados. \nFormar línea imaginaria del limbo externo del ojo (unión entre el iris y la conjuntiva)" +
+		"Aplicar 5U, con aguja a 45 grados. \n\nFormar línea imaginaria del limbo externo del ojo (unión entre el iris y la conjuntiva)" +
 		" hacia la parte más superior del músculo frontal, en el borde de implantación del pelo.",
 		
-		"Aplicar 5U, con aguja a 45 grados. \nFormar línea imaginaria del limbo externo del ojo (unión entre el iris y la conjuntiva)" +
+		"Aplicar 5U, con aguja a 45 grados. \n\nFormar línea imaginaria del limbo externo del ojo (unión entre el iris y la conjuntiva)" +
 		" hacia la parte más superior del músculo frontal, en el borde de implantación del pelo.",
 		
-		"Aplicar 5U, con aguja a 45 grados. \nFormar línea imaginaria del canto interno del ojo hacia la " +
+		"Aplicar 5U, con aguja a 45 grados. \n\nFormar línea imaginaria del canto interno del ojo hacia la " +
 		"parte más superior del músculo frontal, en el borde de implantación del pelo.",
 		
-		"Aplicar 5U, con aguja a 45 grados. \nFormar línea imaginaria del canto interno del ojo hacia la " +
+		"Aplicar 5U, con aguja a 45 grados. \n\nFormar línea imaginaria del canto interno del ojo hacia la " +
 		"parte más superior del músculo frontal, en el borde de implantación del pelo."
 	};
 

@@ -14,12 +14,6 @@ public class VideoLoop : MonoBehaviour
 	{
 		StartCoroutine(RunVideo());
 	}
-	
-	// Update is called once per frame
-	/*void Update ()
-	{
-		StartCoroutine(PlayVideo());
-	}*/
 
 	IEnumerator RunVideo()
 	{

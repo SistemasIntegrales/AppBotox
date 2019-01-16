@@ -140,19 +140,6 @@ public class ChangeTextDistonia : MonoBehaviour
 				{
 					m.renderQueue = 3000;
 				}
-				
-				/*Color c = m.color;
-				c.a = alpha;
-				m.color = c;
-				m.SetFloat("_Mode", modo);
-				m.SetInt("_SrcBlend", (int)UnityEngine.Rendering.BlendMode.One);
-				m.SetInt("_DstBlend", (int)UnityEngine.Rendering.BlendMode.OneMinusSrcAlpha);
-				//m.SetInt("_ZWrite", 0); //Modo Transparente
-				//m.SetInt("_ZWrite", 1); //Modo Opacidad
-				m.DisableKeyword("_ALPHATEST_ON");
-				m.EnableKeyword("_ALPHABLEND_ON");
-				m.DisableKeyword("_ALPHAPREMULTIPLY_ON");
-				//m.renderQueue = 3000;*/
 			}
 			skinnyRender.materials = mats;
 		}
