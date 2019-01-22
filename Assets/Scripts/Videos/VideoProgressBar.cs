@@ -7,18 +7,14 @@ using UnityEngine.Video;
 
 public class VideoProgressBar : MonoBehaviour, IDragHandler, IPointerDownHandler
 {
-	public VideoPlayer VideoPlayer;
+	[SerializeField]
+	private VideoPlayer VideoPlayer;
 
 	private Image _progress;
 
 	private void Awake()
 	{
 		_progress = GetComponent<Image>();
-	}
-
-	// Use this for initialization
-	void Start () {
-		
 	}
 	
 	// Update is called once per frame

@@ -6,31 +6,12 @@ using UnityEngine.Video;
 
 public class VideoBotox : MonoBehaviour
 {
-    public RawImage RawImage;
+    public RawImage PantallaChica, PantallaGrande;
     public VideoPlayer VideoPlayer;
 
-    public GameObject primerPlay, play, pause, rewind, forward;
-    
-    //public Slider Slider;
+    public GameObject primerPlay, play1, play2, pause1, pause2, rewind1, forward1, zoom1, PantallaGrandeGO, groupButGrandes;
 
-    // Use this for initialization
-    void Start ()
-    {
-        //StartCoroutine(PlayVideo());
-        play.SetActive(false);
-        pause.SetActive(false);
-        rewind.SetActive(false);
-        forward.SetActive(false);
-    }
-
-    /*void Update()
-    {
-        if (!VideoPlayer.isPrepared)
-        {
-            return;
-        }
-        Slider.value = (float) NTime;
-    }*/
+    private bool zoomActivo = false;
 
     public void PlayInicial()
     {
@@ -49,12 +30,15 @@ public class VideoBotox : MonoBehaviour
             break;
         }
 
-        RawImage.texture = VideoPlayer.texture;
+        Texture texture = VideoPlayer.texture;
+        PantallaChica.texture = texture;
+        PantallaGrande.texture = texture;
         
         //play.SetActive(false);
-        pause.SetActive(true);
-        rewind.SetActive(true);
-        forward.SetActive(true);
+        pause1.SetActive(true);
+        rewind1.SetActive(true);
+        forward1.SetActive(true);
+        zoom1.SetActive(true);
         
         VideoPlayer.Play();
     }
@@ -78,17 +62,21 @@ public class VideoBotox : MonoBehaviour
     {
         if (!VideoPlayer.isPrepared) return;
         VideoPlayer.Play();
-        Debug.Log("Video playing");
-        pause.SetActive(true);
-        play.SetActive(false);
+        
+        pause1.SetActive(true);
+        pause2.SetActive(true);
+        play1.SetActive(false);
+        play2.SetActive(false);
     }
 
     public void PauseVideo()
     {
         if (!VideoPlayer.isPlaying) return;
         VideoPlayer.Pause();
-        pause.SetActive(false);
-        play.SetActive(true);
+        pause1.SetActive(false);
+        pause2.SetActive(false);
+        play1.SetActive(true);
+        play2.SetActive(true);
     }
 
     public void RewindVideo()
@@ -99,5 +87,21 @@ public class VideoBotox : MonoBehaviour
     public void ForwardVideo()
     {
         VideoPlayer.time = VideoPlayer.time + 10f;
+    }
+
+    public void ZoomVideo()
+    {
+        if (zoomActivo)
+        {
+            zoomActivo = false;
+            PantallaGrandeGO.SetActive(false);
+            groupButGrandes.SetActive(false);
+        }
+        else
+        {
+            zoomActivo = true;
+            PantallaGrandeGO.SetActive(true);
+            groupButGrandes.SetActive(true);
+        }
     }
 }
