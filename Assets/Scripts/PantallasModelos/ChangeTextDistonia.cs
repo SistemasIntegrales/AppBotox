@@ -197,7 +197,7 @@ public class ChangeTextDistonia : MonoBehaviour
 			
 			//Anterocollis - BILATERAL
 			case 3: //Levator Scapulae || Elevador de la escapula
-				InfoMusculos.text = "25-100U/VISITA";
+				InfoMusculos.text = "25-100U/VISITA\n\nBilateral";
 				transform.eulerAngles = new Vector3(rotX, rotY, 0f);
 				transform.Rotate(0,180,0,Space.World);
 				Seleccion(6, 7);
@@ -207,16 +207,16 @@ public class ChangeTextDistonia : MonoBehaviour
 				}
 				break;
 			case 4: //Longus Collis || Largo del cuello
-				InfoMusculos.text = "50-150U/VISITA";
+				InfoMusculos.text = "50-150U/VISITA\n\nBilateral";
 				transform.eulerAngles = new Vector3(rotX, rotY, 0f);
-				Seleccion(11, 12);
+				Seleccion(14, 15);
 				foreach (GameObject tapa in ocultarLonColli)
 				{
 					TransparentarMusculos(tapa, alpha, modo);
 				}
 				break;
 			case 5: //Scalenus Medius || Escaleno medio
-				InfoMusculos.text = "15-50U/VISITA";
+				InfoMusculos.text = "15-50U/VISITA\n\nBilateral";
 				transform.eulerAngles = new Vector3(rotX, rotY, 0f);
 				Seleccion(1,2);
 				foreach (GameObject tapa in ocultarEscMedio)
@@ -228,12 +228,12 @@ public class ChangeTextDistonia : MonoBehaviour
 			
 			//Lateral Shift - Laterocollis + Laterocaput = ipsilateral del lado derecho
 			case 6: //Esternocleido
-				InfoMusculos.text = "15-75U/VISITA";
+				InfoMusculos.text = "15-75U/VISITA \n\nIpsilateral";
 				transform.eulerAngles = new Vector3(rotX, rotY, 0f);
 				Seleccion(4, 4);
 				break;
 			case 7: //Levator Scapulae || Elevador de la escapula
-				InfoMusculos.text = "25-100U/VISITA";
+				InfoMusculos.text = "25-100U/VISITA \n\nIpsilateral";
 				transform.eulerAngles = new Vector3(rotX, rotY, 0f);
 				transform.Rotate(0,180,0,Space.World);
 				Seleccion(6, 6);
@@ -243,17 +243,19 @@ public class ChangeTextDistonia : MonoBehaviour
 				}
 				break;
 			case 8: //Longisimo del cuello || Longissimus cervis
-				InfoMusculos.text = "50-150U/VISITA";
+				InfoMusculos.text = "50-150U/VISITA \n\nIpsilateral";
 				transform.eulerAngles = new Vector3(rotX, rotY, 0f);
-				Seleccion(11, 11);
+				transform.Rotate(0,180,0,Space.World);
+				Seleccion(10, 10);
 				foreach (GameObject tapa in ocultarLonColli)
 				{
 					TransparentarMusculos(tapa, alpha, modo);
 				}
 				break;
 			case 9: //Scalenus Medius
-				InfoMusculos.text = "15-50U/VISITA";
+				InfoMusculos.text = "15-50U/VISITA \n\nIpsilateral";
 				transform.eulerAngles = new Vector3(rotX, rotY, 0f);
+				transform.Rotate(0,180,0,Space.World);
 				Seleccion(1, 1);
 				foreach (GameObject tapa in ocultarEscMedio)
 				{
@@ -261,7 +263,7 @@ public class ChangeTextDistonia : MonoBehaviour
 				}
 				break;
 			case 10: //Semispinalis Capitis || Semiespinoso de la cabeza
-				InfoMusculos.text = "50-150U/VISITA";
+				InfoMusculos.text = "50-150U/VISITA \n\nIpsilateral";
 				transform.eulerAngles = new Vector3(rotX, rotY, 0f);
 				transform.Rotate(0,180,0,Space.World);
 				Seleccion(58, 58);
@@ -354,7 +356,7 @@ public class ChangeTextDistonia : MonoBehaviour
 			
 			//Laterocollis - ipsilateral del lado derecho
 			case 20: //Levator Scapulae || Elevador de la escapula
-				InfoMusculos.text = "50-150U/VISITA";
+				InfoMusculos.text = "50-150U/VISITA \n\nIpsilateral";
 				transform.eulerAngles = new Vector3(rotX, rotY, 0f);
 				transform.Rotate(0,180,0,Space.World);
 				Seleccion(6, 6);
@@ -364,16 +366,17 @@ public class ChangeTextDistonia : MonoBehaviour
 				}
 				break;
 			case 21: //Longisimo del cuello || Longissimus cervis
-				InfoMusculos.text = "50-150U/VISITA";
+				InfoMusculos.text = "50-150U/VISITA \n\nIpsilateral";
 				transform.eulerAngles = new Vector3(rotX, rotY, 0f);
-				Seleccion(11, 11);
-				foreach (GameObject tapa in ocultarLonColli)
+				transform.Rotate(0,180,0,Space.World);
+				Seleccion(10, 10);
+				foreach (GameObject tapa in ocultarEscapulae)
 				{
 					TransparentarMusculos(tapa, alpha, modo);
 				}
 				break;
 			case 22: //Scalenus Medius || Escaleno medio
-				InfoMusculos.text = "50-150U/VISITA";
+				InfoMusculos.text = "50-150U/VISITA \n\nIpsilateral";
 				transform.eulerAngles = new Vector3(rotX, rotY, 0f);
 				Seleccion(1, 1);
 				foreach (GameObject tapa in ocultarEscMedio)
@@ -382,10 +385,10 @@ public class ChangeTextDistonia : MonoBehaviour
 				}
 				break;
 			case 23: //Semispinalis Cervis || Semiespinoso del cuello
-				InfoMusculos.text = "50-150U/VISITA";
+				InfoMusculos.text = "50-150U/VISITA \n\nIpsilateral";
 				transform.eulerAngles = new Vector3(rotX, rotY, 0f);
 				transform.Rotate(0,180,0,Space.World);
-				Seleccion(60, 60);
+				Seleccion(61, 61);
 				foreach (GameObject tapa in ocultarSemispinalisCervis)
 				{
 					TransparentarMusculos(tapa, alpha, modo);
@@ -434,10 +437,10 @@ public class ChangeTextDistonia : MonoBehaviour
 			
 			//Retrocollis - BILATERAL
 			case 28: //Semispinalis Cervis
-				InfoMusculos.text = "50-150U/VISITA";
+				InfoMusculos.text = "50-150U/VISITA\n\nBilateral";
 				transform.eulerAngles = new Vector3(rotX, rotY, 0f);
 				transform.Rotate(0,180,0,Space.World);
-				Seleccion(60, 61);
+				Seleccion(61, 62);
 				foreach (GameObject tapa in ocultarSemispinalisCervis)
 				{
 					TransparentarMusculos(tapa, alpha, modo);
@@ -568,7 +571,7 @@ public class ChangeTextDistonia : MonoBehaviour
 			
 			//Torticolis - ipsilateral del lado izquierdo
 			case 42: //Levator Scapulae
-				InfoMusculos.text = "25-100U/VISITA";
+				InfoMusculos.text = "25-100U/VISITA \n\nIpsilateral";
 				transform.eulerAngles = new Vector3(rotX, rotY, 0f);
 				transform.Rotate(0,180,0,Space.World);
 				Seleccion(7, 7);
@@ -578,29 +581,30 @@ public class ChangeTextDistonia : MonoBehaviour
 				}
 				break;
 			case 43: //Longissimus Cervis
-				InfoMusculos.text = "50-150U/VISITA";
+				InfoMusculos.text = "50-150U/VISITA \n\nIpsilateral";
 				transform.eulerAngles = new Vector3(rotX, rotY, 0f);
-				Seleccion(12, 12);
-				foreach (GameObject tapa in ocultarLonColli)
+				transform.Rotate(0,180,0,Space.World);
+				Seleccion(11, 11);
+				foreach (GameObject tapa in ocultarEscapulae)
 				{
 					TransparentarMusculos(tapa, alpha, modo);
 				}
 				break;
 			case 44: //Semispinalis Cervis || Semiespinoso del cuello
-				InfoMusculos.text = "50-150U/VISITA";
+				InfoMusculos.text = "50-150U/VISITA \n\nIpsilateral";
 				transform.eulerAngles = new Vector3(rotX, rotY, 0f);
 				transform.Rotate(0,180,0,Space.World);
-				Seleccion(61, 61);
+				Seleccion(62, 62);
 				foreach (GameObject tapa in ocultarSemispinalisCervis)
 				{
 					TransparentarMusculos(tapa, alpha, modo);
 				}
 				break;
 			case 45: //Splenius Capitis || Esplenio
-				InfoMusculos.text = "20-60U/VISITA";
+				InfoMusculos.text = "20-60U/VISITA \n\nIpsilateral";
 				transform.eulerAngles = new Vector3(rotX, rotY, 0f);
 				transform.Rotate(0,180,0,Space.World);
-				Seleccion(63, 63);
+				Seleccion(67, 67);
 				foreach (GameObject tapa in ocultarSpleniusCapitis)
 				{
 					TransparentarMusculos(tapa, alpha, modo);
