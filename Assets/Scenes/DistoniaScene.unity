@@ -5573,7 +5573,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &856046868
 RectTransform:
   m_ObjectHideFlags: 0
@@ -6297,38 +6297,34 @@ MonoBehaviour:
   - {fileID: 1004713281}
   - {fileID: 209491022}
   ocultarLonCapitis:
-  - {fileID: 295973355}
-  - {fileID: 1116259143}
-  - {fileID: 19536044}
-  - {fileID: 1351431400}
-  - {fileID: 608078326}
-  - {fileID: 1004713281}
-  - {fileID: 209491022}
-  - {fileID: 1245866742}
-  - {fileID: 1245866741}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
   ocultarLonColli:
-  - {fileID: 1245866740}
-  - {fileID: 1245866739}
-  - {fileID: 1245866738}
-  - {fileID: 1245866737}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
   ocultarEscMedio:
-  - {fileID: 1245866740}
-  - {fileID: 1245866739}
-  - {fileID: 1245866738}
-  - {fileID: 1245866737}
-  - {fileID: 1245866736}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
   ocultarSemispinalisCapitis:
-  - {fileID: 295973355}
-  - {fileID: 1116259143}
-  - {fileID: 19536044}
-  - {fileID: 1351431400}
-  - {fileID: 608078326}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
   ocultarSemispinalisCervis:
-  - {fileID: 295973355}
-  - {fileID: 1116259143}
-  - {fileID: 19536044}
+  - {fileID: 0}
+  - {fileID: 0}
   ocultarSpleniusCapitis:
-  - {fileID: 295973355}
+  - {fileID: 0}
 --- !u!114 &975558085
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6592,8 +6588,8 @@ MonoBehaviour:
   m_OnValueChanged:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 975558085}
-        m_MethodName: Dropdown_IndexChanged
+      - m_Target: {fileID: 975558084}
+        m_MethodName: CambiarInfoDistonia
         m_Mode: 0
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -8699,48 +8695,6 @@ PrefabInstance:
       objectReference: {fileID: 2100082, guid: 826ec9001a6db40cd826ee834a3ce6f3, type: 3}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 826ec9001a6db40cd826ee834a3ce6f3, type: 3}
---- !u!1 &1245866736 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 100004, guid: 826ec9001a6db40cd826ee834a3ce6f3,
-    type: 3}
-  m_PrefabInstance: {fileID: 1245866735}
-  m_PrefabAsset: {fileID: 0}
---- !u!1 &1245866737 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 100014, guid: 826ec9001a6db40cd826ee834a3ce6f3,
-    type: 3}
-  m_PrefabInstance: {fileID: 1245866735}
-  m_PrefabAsset: {fileID: 0}
---- !u!1 &1245866738 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 100012, guid: 826ec9001a6db40cd826ee834a3ce6f3,
-    type: 3}
-  m_PrefabInstance: {fileID: 1245866735}
-  m_PrefabAsset: {fileID: 0}
---- !u!1 &1245866739 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 100088, guid: 826ec9001a6db40cd826ee834a3ce6f3,
-    type: 3}
-  m_PrefabInstance: {fileID: 1245866735}
-  m_PrefabAsset: {fileID: 0}
---- !u!1 &1245866740 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 100100, guid: 826ec9001a6db40cd826ee834a3ce6f3,
-    type: 3}
-  m_PrefabInstance: {fileID: 1245866735}
-  m_PrefabAsset: {fileID: 0}
---- !u!1 &1245866741 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 100028, guid: 826ec9001a6db40cd826ee834a3ce6f3,
-    type: 3}
-  m_PrefabInstance: {fileID: 1245866735}
-  m_PrefabAsset: {fileID: 0}
---- !u!1 &1245866742 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 100026, guid: 826ec9001a6db40cd826ee834a3ce6f3,
-    type: 3}
-  m_PrefabInstance: {fileID: 1245866735}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1254596893
 GameObject:
   m_ObjectHideFlags: 0
@@ -13793,7 +13747,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &1939650246
 RectTransform:
   m_ObjectHideFlags: 0
