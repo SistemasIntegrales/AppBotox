@@ -300,10 +300,10 @@ MonoBehaviour:
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_FontData:
     m_Font: {fileID: 12800000, guid: b934c0b4816af2847a18b32fede8d5b9, type: 3}
-    m_FontSize: 22
+    m_FontSize: 19
     m_FontStyle: 0
     m_BestFit: 0
-    m_MinSize: 2
+    m_MinSize: 1
     m_MaxSize: 40
     m_Alignment: 4
     m_AlignByGeometry: 0
@@ -311,7 +311,9 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Trapecio
+  m_Text: 'Trapecio parte
+
+    descendente'
 --- !u!222 &41835876
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -627,10 +629,10 @@ MonoBehaviour:
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_FontData:
     m_Font: {fileID: 12800000, guid: b934c0b4816af2847a18b32fede8d5b9, type: 3}
-    m_FontSize: 22
+    m_FontSize: 18
     m_FontStyle: 0
     m_BestFit: 0
-    m_MinSize: 2
+    m_MinSize: 1
     m_MaxSize: 40
     m_Alignment: 4
     m_AlignByGeometry: 0
@@ -638,7 +640,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Oblicuo de la cabeza
+  m_Text: "Oblicuo de la \ncabeza inferior"
 --- !u!222 &102061616
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -683,6 +685,12 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 7}
   m_SizeDelta: {x: -510, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
+--- !u!1 &113915337 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 100044, guid: 9b4e17771f1434823b7eb7627b917ecb,
+    type: 3}
+  m_PrefabInstance: {fileID: 1520764339}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &136225812
 GameObject:
   m_ObjectHideFlags: 0
@@ -871,10 +879,10 @@ MonoBehaviour:
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_FontData:
     m_Font: {fileID: 12800000, guid: b934c0b4816af2847a18b32fede8d5b9, type: 3}
-    m_FontSize: 22
+    m_FontSize: 18
     m_FontStyle: 0
     m_BestFit: 0
-    m_MinSize: 2
+    m_MinSize: 1
     m_MaxSize: 40
     m_Alignment: 4
     m_AlignByGeometry: 0
@@ -1215,8 +1223,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 9, y: 90}
-  m_SizeDelta: {x: 82, y: -30}
+  m_AnchoredPosition: {x: 0, y: 90}
+  m_SizeDelta: {x: 47, y: -40}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &246747532
 MonoBehaviour:
@@ -1430,6 +1438,7 @@ RectTransform:
   - {fileID: 548034260}
   - {fileID: 1031526599}
   - {fileID: 933616471}
+  - {fileID: 533123757}
   m_Father: {fileID: 856046868}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -1626,10 +1635,10 @@ MonoBehaviour:
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_FontData:
     m_Font: {fileID: 12800000, guid: b934c0b4816af2847a18b32fede8d5b9, type: 3}
-    m_FontSize: 22
+    m_FontSize: 17
     m_FontStyle: 0
     m_BestFit: 0
-    m_MinSize: 2
+    m_MinSize: 1
     m_MaxSize: 40
     m_Alignment: 4
     m_AlignByGeometry: 0
@@ -2110,6 +2119,12 @@ MonoBehaviour:
   CanvasGroup: {fileID: 1760680521}
   backActivo: {r: 1, g: 1, b: 1, a: 1}
   backInctivo: {r: 0.38679248, g: 0.38679248, b: 0.38679248, a: 1}
+--- !u!1 &388206679 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 100042, guid: 9b4e17771f1434823b7eb7627b917ecb,
+    type: 3}
+  m_PrefabInstance: {fileID: 1520764339}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &390292120
 GameObject:
   m_ObjectHideFlags: 0
@@ -2535,7 +2550,7 @@ GameObject:
   - component: {fileID: 447129268}
   - component: {fileID: 447129267}
   m_Layer: 5
-  m_Name: Button (5)
+  m_Name: Trapecio parte descendente
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2556,10 +2571,10 @@ RectTransform:
   m_Father: {fileID: 447778996}
   m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0, y: 70}
-  m_SizeDelta: {x: 62, y: -30}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 0, y: 90}
+  m_SizeDelta: {x: 160, y: 70}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &447129267
 MonoBehaviour:
@@ -2690,7 +2705,7 @@ RectTransform:
   m_AnchorMin: {x: 0, y: 0.5}
   m_AnchorMax: {x: 1, y: 0.5}
   m_AnchoredPosition: {x: 0, y: 7}
-  m_SizeDelta: {x: -510, y: 100}
+  m_SizeDelta: {x: 0, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &473720945
 GameObject:
@@ -3095,10 +3110,10 @@ MonoBehaviour:
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_FontData:
     m_Font: {fileID: 12800000, guid: b934c0b4816af2847a18b32fede8d5b9, type: 3}
-    m_FontSize: 22
+    m_FontSize: 19
     m_FontStyle: 0
     m_BestFit: 0
-    m_MinSize: 2
+    m_MinSize: 1
     m_MaxSize: 40
     m_Alignment: 4
     m_AlignByGeometry: 0
@@ -3275,6 +3290,135 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 526037993}
   m_CullTransparentMesh: 0
+--- !u!1 &533123756
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 533123757}
+  - component: {fileID: 533123760}
+  - component: {fileID: 533123759}
+  - component: {fileID: 533123758}
+  m_Layer: 5
+  m_Name: Button Longisimus Cer (1)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &533123757
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 533123756}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 1250946702}
+  m_Father: {fileID: 258283332}
+  m_RootOrder: 8
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: 202.20001, y: 90}
+  m_SizeDelta: {x: 47, y: -40}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &533123758
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 533123756}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1392445389, guid: f70555f144d8491a825f0804e09c671c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Navigation:
+    m_Mode: 3
+    m_SelectOnUp: {fileID: 0}
+    m_SelectOnDown: {fileID: 0}
+    m_SelectOnLeft: {fileID: 0}
+    m_SelectOnRight: {fileID: 0}
+  m_Transition: 1
+  m_Colors:
+    m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
+    m_HighlightedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
+    m_PressedColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 1}
+    m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
+    m_ColorMultiplier: 1
+    m_FadeDuration: 0.1
+  m_SpriteState:
+    m_HighlightedSprite: {fileID: 0}
+    m_PressedSprite: {fileID: 0}
+    m_DisabledSprite: {fileID: 0}
+  m_AnimationTriggers:
+    m_NormalTrigger: Normal
+    m_HighlightedTrigger: Highlighted
+    m_PressedTrigger: Pressed
+    m_DisabledTrigger: Disabled
+  m_Interactable: 1
+  m_TargetGraphic: {fileID: 533123759}
+  m_OnClick:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 1565819284}
+        m_MethodName: CambiarInfoDistonia
+        m_Mode: 3
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 46
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+    m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+--- !u!114 &533123759
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 533123756}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -765806418, guid: f70555f144d8491a825f0804e09c671c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 0.34901962, g: 0.18431373, b: 0.4901961, a: 1}
+  m_RaycastTarget: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
+      Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+  m_Sprite: {fileID: 10905, guid: 0000000000000000f000000000000000, type: 0}
+  m_Type: 1
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+--- !u!222 &533123760
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 533123756}
+  m_CullTransparentMesh: 0
 --- !u!1 &548034259
 GameObject:
   m_ObjectHideFlags: 0
@@ -3312,7 +3456,7 @@ RectTransform:
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 82, y: -30}
+  m_SizeDelta: {x: 47, y: -40}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &548034261
 MonoBehaviour:
@@ -4199,7 +4343,7 @@ GameObject:
   - component: {fileID: 627978008}
   - component: {fileID: 627978007}
   m_Layer: 5
-  m_Name: Button (1)
+  m_Name: "Long\xEDsimo de la cabeza"
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4220,10 +4364,10 @@ RectTransform:
   m_Father: {fileID: 447778996}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -105, y: 150}
-  m_SizeDelta: {x: 102, y: -30}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: -177, y: 90}
+  m_SizeDelta: {x: 140, y: 70}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &627978007
 MonoBehaviour:
@@ -4444,6 +4588,12 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 628689591}
   m_CullTransparentMesh: 0
+--- !u!1 &648382254 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 100066, guid: 9b4e17771f1434823b7eb7627b917ecb,
+    type: 3}
+  m_PrefabInstance: {fileID: 1520764339}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &650973881
 GameObject:
   m_ObjectHideFlags: 0
@@ -4457,7 +4607,7 @@ GameObject:
   - component: {fileID: 650973884}
   - component: {fileID: 650973883}
   m_Layer: 5
-  m_Name: Button
+  m_Name: Esternocleidomastoideo
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4478,10 +4628,10 @@ RectTransform:
   m_Father: {fileID: 447778996}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0, y: -25}
-  m_SizeDelta: {x: 197, y: -30}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: -135, y: 195}
+  m_SizeDelta: {x: 245, y: 70}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &650973883
 MonoBehaviour:
@@ -4586,7 +4736,7 @@ GameObject:
   - component: {fileID: 682686091}
   - component: {fileID: 682686090}
   m_Layer: 5
-  m_Name: Button (2)
+  m_Name: Oblicuo de la  cabeza inferior
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4607,10 +4757,10 @@ RectTransform:
   m_Father: {fileID: 447778996}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 105, y: 150}
-  m_SizeDelta: {x: 102, y: -30}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 135, y: 195}
+  m_SizeDelta: {x: 165, y: 70}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &682686090
 MonoBehaviour:
@@ -4761,10 +4911,10 @@ MonoBehaviour:
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_FontData:
     m_Font: {fileID: 12800000, guid: b934c0b4816af2847a18b32fede8d5b9, type: 3}
-    m_FontSize: 22
+    m_FontSize: 17
     m_FontStyle: 0
     m_BestFit: 0
-    m_MinSize: 2
+    m_MinSize: 1
     m_MaxSize: 40
     m_Alignment: 4
     m_AlignByGeometry: 0
@@ -5115,7 +5265,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &739361939
 RectTransform:
   m_ObjectHideFlags: 0
@@ -5591,7 +5741,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &856046868
 RectTransform:
   m_ObjectHideFlags: 0
@@ -5719,10 +5869,10 @@ MonoBehaviour:
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_FontData:
     m_Font: {fileID: 12800000, guid: b934c0b4816af2847a18b32fede8d5b9, type: 3}
-    m_FontSize: 22
+    m_FontSize: 17
     m_FontStyle: 0
     m_BestFit: 0
-    m_MinSize: 2
+    m_MinSize: 1
     m_MaxSize: 40
     m_Alignment: 4
     m_AlignByGeometry: 0
@@ -5730,7 +5880,9 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Esplenio de la cabeza
+  m_Text: 'Esplenio de
+
+    la cabeza'
 --- !u!222 &881296165
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -5798,10 +5950,10 @@ MonoBehaviour:
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_FontData:
     m_Font: {fileID: 12800000, guid: b934c0b4816af2847a18b32fede8d5b9, type: 3}
-    m_FontSize: 22
+    m_FontSize: 17
     m_FontStyle: 0
     m_BestFit: 0
-    m_MinSize: 2
+    m_MinSize: 1
     m_MaxSize: 40
     m_Alignment: 4
     m_AlignByGeometry: 0
@@ -5854,8 +6006,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 164, y: 185}
-  m_SizeDelta: {x: 62, y: -30}
+  m_AnchoredPosition: {x: -210, y: 185}
+  m_SizeDelta: {x: 47, y: -40}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &933616472
 MonoBehaviour:
@@ -5960,7 +6112,7 @@ GameObject:
   - component: {fileID: 939733715}
   - component: {fileID: 939733714}
   m_Layer: 5
-  m_Name: Button (4)
+  m_Name: Esplenio de la cabeza
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -5981,10 +6133,10 @@ RectTransform:
   m_Father: {fileID: 447778996}
   m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 190, y: 70}
-  m_SizeDelta: {x: 102, y: -30}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 190, y: 90}
+  m_SizeDelta: {x: 140, y: 70}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &939733714
 MonoBehaviour:
@@ -6113,7 +6265,7 @@ RectTransform:
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
   m_AnchoredPosition: {x: -196, y: 90}
-  m_SizeDelta: {x: 82, y: -30}
+  m_SizeDelta: {x: 47, y: -40}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &947049809
 MonoBehaviour:
@@ -6264,10 +6416,10 @@ MonoBehaviour:
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_FontData:
     m_Font: {fileID: 12800000, guid: b934c0b4816af2847a18b32fede8d5b9, type: 3}
-    m_FontSize: 22
+    m_FontSize: 17
     m_FontStyle: 0
     m_BestFit: 0
-    m_MinSize: 2
+    m_MinSize: 1
     m_MaxSize: 40
     m_Alignment: 4
     m_AlignByGeometry: 0
@@ -6275,7 +6427,9 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Semiespinoso del cuello
+  m_Text: 'Semiespinoso
+
+    del cuello'
 --- !u!222 &961304010
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -6738,7 +6892,7 @@ RectTransform:
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
   m_AnchoredPosition: {x: 202, y: 0}
-  m_SizeDelta: {x: 82, y: -30}
+  m_SizeDelta: {x: 47, y: -40}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1031526600
 MonoBehaviour:
@@ -7867,8 +8021,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -109, y: 185}
-  m_SizeDelta: {x: 202, y: -30}
+  m_AnchoredPosition: {x: 0, y: 185}
+  m_SizeDelta: {x: 132, y: -40}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1210371674
 MonoBehaviour:
@@ -8166,6 +8320,85 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 7}
   m_SizeDelta: {x: -510, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
+--- !u!1 &1250946701
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1250946702}
+  - component: {fileID: 1250946704}
+  - component: {fileID: 1250946703}
+  m_Layer: 5
+  m_Name: Text
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &1250946702
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1250946701}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 533123757}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1250946703
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1250946701}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 708705254, guid: f70555f144d8491a825f0804e09c671c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
+      Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+  m_FontData:
+    m_Font: {fileID: 12800000, guid: b934c0b4816af2847a18b32fede8d5b9, type: 3}
+    m_FontSize: 17
+    m_FontStyle: 0
+    m_BestFit: 0
+    m_MinSize: 1
+    m_MaxSize: 40
+    m_Alignment: 4
+    m_AlignByGeometry: 0
+    m_RichText: 1
+    m_HorizontalOverflow: 0
+    m_VerticalOverflow: 0
+    m_LineSpacing: 1
+  m_Text: "Long\xEDsimo\nde la cabeza"
+--- !u!222 &1250946704
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1250946701}
+  m_CullTransparentMesh: 0
 --- !u!1 &1254596893
 GameObject:
   m_ObjectHideFlags: 0
@@ -8493,7 +8726,7 @@ RectTransform:
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
   m_AnchoredPosition: {x: -194, y: 0}
-  m_SizeDelta: {x: 82, y: -30}
+  m_SizeDelta: {x: 47, y: -40}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1273110352
 MonoBehaviour:
@@ -8870,7 +9103,7 @@ RectTransform:
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 0}
   m_AnchoredPosition: {x: 0, y: 127.5}
-  m_SizeDelta: {x: -180, y: 189}
+  m_SizeDelta: {x: -160, y: 189}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1337148551
 MonoBehaviour:
@@ -8894,10 +9127,10 @@ MonoBehaviour:
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_FontData:
     m_Font: {fileID: 12800000, guid: b934c0b4816af2847a18b32fede8d5b9, type: 3}
-    m_FontSize: 30
+    m_FontSize: 26
     m_FontStyle: 0
     m_BestFit: 0
-    m_MinSize: 3
+    m_MinSize: 2
     m_MaxSize: 40
     m_Alignment: 4
     m_AlignByGeometry: 1
@@ -8905,7 +9138,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "Cuando selecciones el nombre de un m\xFAsculo, aparecer\xE1 solo en pantalla"
+  m_Text: "Selecciona un m\xFAsculo y aparecer\xE1 en pantalla"
 --- !u!222 &1337148552
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -9890,11 +10123,23 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 100004, guid: 9b4e17771f1434823b7eb7627b917ecb, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 100012, guid: 9b4e17771f1434823b7eb7627b917ecb, type: 3}
       propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 100014, guid: 9b4e17771f1434823b7eb7627b917ecb, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 100026, guid: 9b4e17771f1434823b7eb7627b917ecb, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 100028, guid: 9b4e17771f1434823b7eb7627b917ecb, type: 3}
       propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
@@ -9914,6 +10159,26 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 100038, guid: 9b4e17771f1434823b7eb7627b917ecb, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 100040, guid: 9b4e17771f1434823b7eb7627b917ecb, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 100042, guid: 9b4e17771f1434823b7eb7627b917ecb, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 100044, guid: 9b4e17771f1434823b7eb7627b917ecb, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 100066, guid: 9b4e17771f1434823b7eb7627b917ecb, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 100094, guid: 9b4e17771f1434823b7eb7627b917ecb, type: 3}
       propertyPath: m_IsActive
       value: 1
@@ -9924,7 +10189,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 100110, guid: 9b4e17771f1434823b7eb7627b917ecb, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 100116, guid: 9b4e17771f1434823b7eb7627b917ecb, type: 3}
       propertyPath: m_IsActive
@@ -9957,6 +10222,10 @@ PrefabInstance:
     - target: {fileID: 100128, guid: 9b4e17771f1434823b7eb7627b917ecb, type: 3}
       propertyPath: m_IsActive
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 100132, guid: 9b4e17771f1434823b7eb7627b917ecb, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 100160, guid: 9b4e17771f1434823b7eb7627b917ecb, type: 3}
       propertyPath: m_IsActive
@@ -10224,10 +10493,10 @@ MonoBehaviour:
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_FontData:
     m_Font: {fileID: 12800000, guid: b934c0b4816af2847a18b32fede8d5b9, type: 3}
-    m_FontSize: 22
+    m_FontSize: 19
     m_FontStyle: 0
     m_BestFit: 0
-    m_MinSize: 2
+    m_MinSize: 1
     m_MaxSize: 40
     m_Alignment: 4
     m_AlignByGeometry: 0
@@ -10235,7 +10504,9 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Oblicuo de la cabeza
+  m_Text: 'Oblicuo de la
+
+    cabeza inferior'
 --- !u!222 &1527116694
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -10519,15 +10790,15 @@ MonoBehaviour:
   - {fileID: 1466107282}
   - {fileID: 1131785645}
   ocultarLonCapitis:
-  - {fileID: 1558394602}
-  - {fileID: 252359318}
-  - {fileID: 482414908}
-  - {fileID: 1435657980}
-  - {fileID: 1784906789}
-  - {fileID: 1466107282}
-  - {fileID: 1131785645}
+  - {fileID: 191989487}
+  - {fileID: 1538627146}
+  - {fileID: 67186519}
   - {fileID: 1430951063}
   - {fileID: 749411755}
+  - {fileID: 388206679}
+  - {fileID: 113915337}
+  - {fileID: 648382254}
+  - {fileID: 784925507}
   ocultarLonColli:
   - {fileID: 784925507}
   - {fileID: 774005388}
@@ -10541,6 +10812,8 @@ MonoBehaviour:
   - {fileID: 1538627146}
   - {fileID: 67186519}
   - {fileID: 191989487}
+  - {fileID: 1430951063}
+  - {fileID: 749411755}
   ocultarSemispinalisCapitis:
   - {fileID: 1558394602}
   - {fileID: 252359318}
@@ -10555,6 +10828,14 @@ MonoBehaviour:
   - {fileID: 1131785645}
   - {fileID: 1435657980}
   - {fileID: 1784906789}
+  - {fileID: 805531733}
+  - {fileID: 1872136993}
+  ocultarLongisimusCapitis:
+  - {fileID: 1558394602}
+  - {fileID: 252359318}
+  - {fileID: 482414908}
+  - {fileID: 1466107282}
+  - {fileID: 1131785645}
   - {fileID: 805531733}
   - {fileID: 1872136993}
   ocultarSpleniusCapitis:
@@ -10655,10 +10936,10 @@ MonoBehaviour:
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_FontData:
     m_Font: {fileID: 12800000, guid: b934c0b4816af2847a18b32fede8d5b9, type: 3}
-    m_FontSize: 22
+    m_FontSize: 18
     m_FontStyle: 0
     m_BestFit: 0
-    m_MinSize: 2
+    m_MinSize: 1
     m_MaxSize: 40
     m_Alignment: 4
     m_AlignByGeometry: 0
@@ -10666,9 +10947,9 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 'Semiespinal
+  m_Text: 'Semiespinal de la
 
-    de la cabeza'
+    cabeza parte media'
 --- !u!222 &1567852547
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -10747,7 +11028,9 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Trapecio
+  m_Text: 'Trapecio parte
+
+    descendente'
 --- !u!222 &1594899558
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -11260,8 +11543,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 207, y: 90}
-  m_SizeDelta: {x: 62, y: -30}
+  m_AnchoredPosition: {x: 207, y: 185}
+  m_SizeDelta: {x: 27, y: -40}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1656052128
 MonoBehaviour:
@@ -11412,10 +11695,10 @@ MonoBehaviour:
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_FontData:
     m_Font: {fileID: 12800000, guid: b934c0b4816af2847a18b32fede8d5b9, type: 3}
-    m_FontSize: 22
+    m_FontSize: 17
     m_FontStyle: 0
     m_BestFit: 0
-    m_MinSize: 2
+    m_MinSize: 1
     m_MaxSize: 40
     m_Alignment: 4
     m_AlignByGeometry: 0
@@ -11423,7 +11706,9 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Elevador de la escapula
+  m_Text: 'Elevador de
+
+    la escapula'
 --- !u!222 &1676971612
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -11620,10 +11905,10 @@ MonoBehaviour:
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_FontData:
     m_Font: {fileID: 12800000, guid: b934c0b4816af2847a18b32fede8d5b9, type: 3}
-    m_FontSize: 22
+    m_FontSize: 19
     m_FontStyle: 0
     m_BestFit: 0
-    m_MinSize: 2
+    m_MinSize: 1
     m_MaxSize: 40
     m_Alignment: 4
     m_AlignByGeometry: 0
@@ -12810,10 +13095,10 @@ MonoBehaviour:
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_FontData:
     m_Font: {fileID: 12800000, guid: b934c0b4816af2847a18b32fede8d5b9, type: 3}
-    m_FontSize: 22
+    m_FontSize: 17
     m_FontStyle: 0
     m_BestFit: 0
-    m_MinSize: 2
+    m_MinSize: 1
     m_MaxSize: 40
     m_Alignment: 4
     m_AlignByGeometry: 0
@@ -13215,7 +13500,7 @@ GameObject:
   - component: {fileID: 1917791796}
   - component: {fileID: 1917791795}
   m_Layer: 5
-  m_Name: Button (3)
+  m_Name: Semiespinal de la cabeza parte media
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -13236,10 +13521,10 @@ RectTransform:
   m_Father: {fileID: 447778996}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -190, y: 70}
-  m_SizeDelta: {x: 102, y: -30}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 200, y: 70}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1917791795
 MonoBehaviour:
@@ -13462,10 +13747,10 @@ MonoBehaviour:
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_FontData:
     m_Font: {fileID: 12800000, guid: b934c0b4816af2847a18b32fede8d5b9, type: 3}
-    m_FontSize: 22
+    m_FontSize: 18
     m_FontStyle: 0
     m_BestFit: 0
-    m_MinSize: 2
+    m_MinSize: 1
     m_MaxSize: 40
     m_Alignment: 4
     m_AlignByGeometry: 0
@@ -13473,7 +13758,9 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Trapecio
+  m_Text: 'Trapecio parte
+
+    descendente'
 --- !u!222 &1926424827
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -13579,10 +13866,10 @@ MonoBehaviour:
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_FontData:
     m_Font: {fileID: 12800000, guid: b934c0b4816af2847a18b32fede8d5b9, type: 3}
-    m_FontSize: 22
+    m_FontSize: 18
     m_FontStyle: 0
     m_BestFit: 0
-    m_MinSize: 2
+    m_MinSize: 1
     m_MaxSize: 40
     m_Alignment: 4
     m_AlignByGeometry: 0
@@ -13590,9 +13877,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 'Largo de
-
-    la cabeza'
+  m_Text: "Long\xEDsimo\nde la cabeza"
 --- !u!222 &1945761543
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -14096,10 +14381,10 @@ MonoBehaviour:
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_FontData:
     m_Font: {fileID: 12800000, guid: b934c0b4816af2847a18b32fede8d5b9, type: 3}
-    m_FontSize: 22
+    m_FontSize: 17
     m_FontStyle: 0
     m_BestFit: 0
-    m_MinSize: 2
+    m_MinSize: 1
     m_MaxSize: 40
     m_Alignment: 4
     m_AlignByGeometry: 0
@@ -14107,7 +14392,9 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Trapecio
+  m_Text: 'Trapecio parte
+
+    descendente'
 --- !u!222 &2025816474
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -14677,10 +14964,10 @@ MonoBehaviour:
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_FontData:
     m_Font: {fileID: 12800000, guid: b934c0b4816af2847a18b32fede8d5b9, type: 3}
-    m_FontSize: 22
+    m_FontSize: 18
     m_FontStyle: 0
     m_BestFit: 0
-    m_MinSize: 2
+    m_MinSize: 1
     m_MaxSize: 40
     m_Alignment: 4
     m_AlignByGeometry: 0
@@ -14688,7 +14975,9 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Esplenio de la cabeza
+  m_Text: 'Esplenio de
+
+    la cabeza'
 --- !u!222 &2119762664
 CanvasRenderer:
   m_ObjectHideFlags: 0
