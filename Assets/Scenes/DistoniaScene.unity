@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.44657826, g: 0.49641263, b: 0.57481676, a: 1}
+  m_IndirectSpecularColor: {r: 0.44657856, g: 0.49641234, b: 0.57481724, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -148,7 +148,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 0, y: -20.999998}
   m_SizeDelta: {x: -400, y: -30}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &35192319
@@ -191,7 +191,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1565819284}
+      - m_Target: {fileID: 494241118}
         m_MethodName: CambiarInfoDistonia
         m_Mode: 3
         m_Arguments:
@@ -359,7 +359,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: 190, y: 165}
-  m_SizeDelta: {x: 185, y: 70}
+  m_SizeDelta: {x: 185, y: 65}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &63919739
 MonoBehaviour:
@@ -401,7 +401,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1565819284}
+      - m_Target: {fileID: 494241118}
         m_MethodName: CambiarInfoDistonia
         m_Mode: 3
         m_Arguments:
@@ -451,12 +451,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 63919737}
   m_CullTransparentMesh: 0
---- !u!1 &67186519 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 100014, guid: 9b4e17771f1434823b7eb7627b917ecb,
-    type: 3}
-  m_PrefabInstance: {fileID: 1520764339}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &79318889
 GameObject:
   m_ObjectHideFlags: 0
@@ -685,12 +679,6 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 7}
   m_SizeDelta: {x: -510, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
---- !u!1 &113915337 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 100044, guid: 9b4e17771f1434823b7eb7627b917ecb,
-    type: 3}
-  m_PrefabInstance: {fileID: 1520764339}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &136225812
 GameObject:
   m_ObjectHideFlags: 0
@@ -727,7 +715,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0, y: 198}
+  m_AnchoredPosition: {x: 0, y: 177}
   m_SizeDelta: {x: -300, y: -30}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &136225814
@@ -770,7 +758,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1565819284}
+      - m_Target: {fileID: 494241118}
         m_MethodName: CambiarInfoDistonia
         m_Mode: 3
         m_Arguments:
@@ -1014,7 +1002,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -100, y: 0}
+  m_AnchoredPosition: {x: -100, y: 34}
   m_SizeDelta: {x: 82, y: -30}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &185365226
@@ -1057,7 +1045,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1565819284}
+      - m_Target: {fileID: 494241118}
         m_MethodName: CambiarInfoDistonia
         m_Mode: 3
         m_Arguments:
@@ -1107,12 +1095,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 185365224}
   m_CullTransparentMesh: 0
---- !u!1 &191989487 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 100004, guid: 9b4e17771f1434823b7eb7627b917ecb,
-    type: 3}
-  m_PrefabInstance: {fileID: 1520764339}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &240455505
 GameObject:
   m_ObjectHideFlags: 0
@@ -1266,7 +1248,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1565819284}
+      - m_Target: {fileID: 494241118}
         m_MethodName: CambiarInfoDistonia
         m_Mode: 3
         m_Arguments:
@@ -1375,7 +1357,7 @@ MonoBehaviour:
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_FontData:
     m_Font: {fileID: 12800000, guid: b934c0b4816af2847a18b32fede8d5b9, type: 3}
-    m_FontSize: 22
+    m_FontSize: 20
     m_FontStyle: 0
     m_BestFit: 0
     m_MinSize: 2
@@ -1397,12 +1379,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 248485062}
   m_CullTransparentMesh: 0
---- !u!1 &252359318 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 100164, guid: 9b4e17771f1434823b7eb7627b917ecb,
-    type: 3}
-  m_PrefabInstance: {fileID: 1520764339}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &258283331
 GameObject:
   m_ObjectHideFlags: 0
@@ -1817,7 +1793,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1565819284}
+      - m_Target: {fileID: 494241118}
         m_MethodName: CambiarInfoDistonia
         m_Mode: 3
         m_Arguments:
@@ -2119,12 +2095,6 @@ MonoBehaviour:
   CanvasGroup: {fileID: 1760680521}
   backActivo: {r: 1, g: 1, b: 1, a: 1}
   backInctivo: {r: 0.38679248, g: 0.38679248, b: 0.38679248, a: 1}
---- !u!1 &388206679 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 100042, guid: 9b4e17771f1434823b7eb7627b917ecb,
-    type: 3}
-  m_PrefabInstance: {fileID: 1520764339}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &390292120
 GameObject:
   m_ObjectHideFlags: 0
@@ -2204,7 +2174,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1565819284}
+      - m_Target: {fileID: 494241118}
         m_MethodName: CambiarInfoDistonia
         m_Mode: 3
         m_Arguments:
@@ -2387,7 +2357,7 @@ MonoBehaviour:
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_FontData:
     m_Font: {fileID: 12800000, guid: b934c0b4816af2847a18b32fede8d5b9, type: 3}
-    m_FontSize: 22
+    m_FontSize: 21
     m_FontStyle: 0
     m_BestFit: 0
     m_MinSize: 2
@@ -2398,7 +2368,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "Elevador de la esc\xE1pula"
+  m_Text: "Elevador de\nla esc\xE1pula"
 --- !u!222 &437004565
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -2616,7 +2586,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1565819284}
+      - m_Target: {fileID: 494241118}
         m_MethodName: CambiarInfoDistonia
         m_Mode: 3
         m_Arguments:
@@ -2837,11 +2807,421 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 473720945}
   m_CullTransparentMesh: 0
---- !u!1 &482414908 stripped
+--- !u!1001 &494241114
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 100000, guid: 9d06f36f9501b47f1b4b4d35ebde48b4, type: 3}
+      propertyPath: m_Name
+      value: "Anatomico_Distoni\u0301a_07-02-2019"
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 9d06f36f9501b47f1b4b4d35ebde48b4, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 100002, guid: 9d06f36f9501b47f1b4b4d35ebde48b4, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 9d06f36f9501b47f1b4b4d35ebde48b4, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 9d06f36f9501b47f1b4b4d35ebde48b4, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.25
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 9d06f36f9501b47f1b4b4d35ebde48b4, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 90.18
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 9d06f36f9501b47f1b4b4d35ebde48b4, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 9d06f36f9501b47f1b4b4d35ebde48b4, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 9d06f36f9501b47f1b4b4d35ebde48b4, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 9d06f36f9501b47f1b4b4d35ebde48b4, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 9d06f36f9501b47f1b4b4d35ebde48b4, type: 3}
+      propertyPath: m_RootOrder
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 9d06f36f9501b47f1b4b4d35ebde48b4, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 9d06f36f9501b47f1b4b4d35ebde48b4, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 180
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 9d06f36f9501b47f1b4b4d35ebde48b4, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 9d06f36f9501b47f1b4b4d35ebde48b4, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 260
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 9d06f36f9501b47f1b4b4d35ebde48b4, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 260
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 9d06f36f9501b47f1b4b4d35ebde48b4, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 260
+      objectReference: {fileID: 0}
+    - target: {fileID: 9500000, guid: 9d06f36f9501b47f1b4b4d35ebde48b4, type: 3}
+      propertyPath: m_Controller
+      value: 
+      objectReference: {fileID: 9100000, guid: b013de9879d264e109765dc27679600c, type: 2}
+    - target: {fileID: 100056, guid: 9d06f36f9501b47f1b4b4d35ebde48b4, type: 3}
+      propertyPath: m_Name
+      value: Musculos_Cabeza_1:Buccinator:Buccinator 20
+      objectReference: {fileID: 0}
+    - target: {fileID: 100068, guid: 9d06f36f9501b47f1b4b4d35ebde48b4, type: 3}
+      propertyPath: m_Name
+      value: Musculos_Cabeza_1:esqueleto:esqueleto 26
+      objectReference: {fileID: 0}
+    - target: {fileID: 100086, guid: 9d06f36f9501b47f1b4b4d35ebde48b4, type: 3}
+      propertyPath: m_Name
+      value: Musculos_Cabeza_1:Mentalis:Mentalis 35
+      objectReference: {fileID: 0}
+    - target: {fileID: 100098, guid: 9d06f36f9501b47f1b4b4d35ebde48b4, type: 3}
+      propertyPath: m_Name
+      value: Musculos_Cabeza_1:Oreja:Oreja 41
+      objectReference: {fileID: 0}
+    - target: {fileID: 100114, guid: 9d06f36f9501b47f1b4b4d35ebde48b4, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 100114, guid: 9d06f36f9501b47f1b4b4d35ebde48b4, type: 3}
+      propertyPath: m_Name
+      value: Nervio_Auriculotemporal 49
+      objectReference: {fileID: 0}
+    - target: {fileID: 100116, guid: 9d06f36f9501b47f1b4b4d35ebde48b4, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 100118, guid: 9d06f36f9501b47f1b4b4d35ebde48b4, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 100120, guid: 9d06f36f9501b47f1b4b4d35ebde48b4, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 100122, guid: 9d06f36f9501b47f1b4b4d35ebde48b4, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 100124, guid: 9d06f36f9501b47f1b4b4d35ebde48b4, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 100126, guid: 9d06f36f9501b47f1b4b4d35ebde48b4, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 100126, guid: 9d06f36f9501b47f1b4b4d35ebde48b4, type: 3}
+      propertyPath: m_Name
+      value: Nervio_Supratoclear 55
+      objectReference: {fileID: 0}
+    - target: {fileID: 100166, guid: 9d06f36f9501b47f1b4b4d35ebde48b4, type: 3}
+      propertyPath: m_Name
+      value: Trapecio_Inferior_D
+      objectReference: {fileID: 0}
+    - target: {fileID: 100168, guid: 9d06f36f9501b47f1b4b4d35ebde48b4, type: 3}
+      propertyPath: m_Name
+      value: Trapecio_Inferior_I
+      objectReference: {fileID: 0}
+    - target: {fileID: 100170, guid: 9d06f36f9501b47f1b4b4d35ebde48b4, type: 3}
+      propertyPath: m_Name
+      value: Trapezius_D 69
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 9d06f36f9501b47f1b4b4d35ebde48b4, type: 3}
+--- !u!1 &494241115 stripped
 GameObject:
-  m_CorrespondingSourceObject: {fileID: 100166, guid: 9b4e17771f1434823b7eb7627b917ecb,
+  m_CorrespondingSourceObject: {fileID: 100000, guid: 9d06f36f9501b47f1b4b4d35ebde48b4,
     type: 3}
-  m_PrefabInstance: {fileID: 1520764339}
+  m_PrefabInstance: {fileID: 494241114}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &494241116 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 100046, guid: 9d06f36f9501b47f1b4b4d35ebde48b4,
+    type: 3}
+  m_PrefabInstance: {fileID: 494241114}
+  m_PrefabAsset: {fileID: 0}
+--- !u!95 &494241117 stripped
+Animator:
+  m_CorrespondingSourceObject: {fileID: 9500000, guid: 9d06f36f9501b47f1b4b4d35ebde48b4,
+    type: 3}
+  m_PrefabInstance: {fileID: 494241114}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &494241118
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 494241115}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 21f63d90d474c4c319892cd90946169b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  InfoMusculos: {fileID: 1337148551}
+  Panel: {fileID: 856046867}
+  _materialFosforescente: {fileID: 2100000, guid: 0e662dea8ec924e4ebbe3b477095c335,
+    type: 2}
+  ocultarEscapulae:
+  - {fileID: 494241141}
+  - {fileID: 494241140}
+  - {fileID: 494241139}
+  - {fileID: 494241138}
+  - {fileID: 494241137}
+  - {fileID: 494241136}
+  - {fileID: 494241135}
+  - {fileID: 494241134}
+  - {fileID: 494241133}
+  - {fileID: 494241132}
+  ocultarLonCapitis:
+  - {fileID: 494241131}
+  - {fileID: 494241130}
+  - {fileID: 494241129}
+  - {fileID: 494241128}
+  - {fileID: 494241127}
+  - {fileID: 494241126}
+  - {fileID: 494241125}
+  - {fileID: 494241124}
+  - {fileID: 494241123}
+  ocultarLonColli:
+  - {fileID: 494241123}
+  - {fileID: 494241122}
+  - {fileID: 494241130}
+  - {fileID: 494241129}
+  - {fileID: 494241128}
+  - {fileID: 494241127}
+  ocultarEscMedio:
+  - {fileID: 494241123}
+  - {fileID: 494241122}
+  - {fileID: 494241130}
+  - {fileID: 494241129}
+  - {fileID: 494241131}
+  - {fileID: 494241128}
+  - {fileID: 494241127}
+  ocultarSemispinalisCapitis:
+  - {fileID: 494241141}
+  - {fileID: 494241140}
+  - {fileID: 494241139}
+  - {fileID: 494241138}
+  - {fileID: 494241137}
+  - {fileID: 494241136}
+  - {fileID: 494241135}
+  - {fileID: 494241134}
+  ocultarSemispinalisCervis:
+  - {fileID: 494241141}
+  - {fileID: 494241140}
+  - {fileID: 494241139}
+  - {fileID: 494241138}
+  - {fileID: 494241137}
+  - {fileID: 494241136}
+  - {fileID: 494241133}
+  - {fileID: 494241132}
+  - {fileID: 494241135}
+  - {fileID: 494241134}
+  - {fileID: 494241121}
+  - {fileID: 494241120}
+  ocultarLongisimusCapitis:
+  - {fileID: 494241141}
+  - {fileID: 494241140}
+  - {fileID: 494241139}
+  - {fileID: 494241138}
+  - {fileID: 494241137}
+  - {fileID: 494241136}
+  - {fileID: 494241133}
+  - {fileID: 494241132}
+  - {fileID: 494241121}
+  - {fileID: 494241120}
+  ocultarSpleniusCapitis:
+  - {fileID: 494241141}
+  - {fileID: 494241140}
+  - {fileID: 494241139}
+  - {fileID: 494241138}
+  - {fileID: 494241133}
+  - {fileID: 494241132}
+  - {fileID: 494241135}
+  - {fileID: 494241134}
+  - {fileID: 494241121}
+  - {fileID: 494241120}
+--- !u!114 &494241119
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 494241115}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fb6a2f39898704b9f8131d9b3ac204d3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  animator: {fileID: 494241117}
+  _puntosRefAnatomica: {fileID: 494241116}
+  botonesMusculosDistonias:
+  - {fileID: 1241059159}
+  - {fileID: 79318889}
+  - {fileID: 1939650245}
+  - {fileID: 103430202}
+  - {fileID: 258283331}
+  - {fileID: 730733154}
+  - {fileID: 447778995}
+  - {fileID: 1221454615}
+  - {fileID: 739361938}
+  - {fileID: 1308016681}
+--- !u!1 &494241120 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 100036, guid: 9d06f36f9501b47f1b4b4d35ebde48b4,
+    type: 3}
+  m_PrefabInstance: {fileID: 494241114}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &494241121 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 100034, guid: 9d06f36f9501b47f1b4b4d35ebde48b4,
+    type: 3}
+  m_PrefabInstance: {fileID: 494241114}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &494241122 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 100094, guid: 9d06f36f9501b47f1b4b4d35ebde48b4,
+    type: 3}
+  m_PrefabInstance: {fileID: 494241114}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &494241123 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 100106, guid: 9d06f36f9501b47f1b4b4d35ebde48b4,
+    type: 3}
+  m_PrefabInstance: {fileID: 494241114}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &494241124 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 100066, guid: 9d06f36f9501b47f1b4b4d35ebde48b4,
+    type: 3}
+  m_PrefabInstance: {fileID: 494241114}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &494241125 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 100044, guid: 9d06f36f9501b47f1b4b4d35ebde48b4,
+    type: 3}
+  m_PrefabInstance: {fileID: 494241114}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &494241126 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 100042, guid: 9d06f36f9501b47f1b4b4d35ebde48b4,
+    type: 3}
+  m_PrefabInstance: {fileID: 494241114}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &494241127 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 100028, guid: 9d06f36f9501b47f1b4b4d35ebde48b4,
+    type: 3}
+  m_PrefabInstance: {fileID: 494241114}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &494241128 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 100026, guid: 9d06f36f9501b47f1b4b4d35ebde48b4,
+    type: 3}
+  m_PrefabInstance: {fileID: 494241114}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &494241129 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 100014, guid: 9d06f36f9501b47f1b4b4d35ebde48b4,
+    type: 3}
+  m_PrefabInstance: {fileID: 494241114}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &494241130 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 100012, guid: 9d06f36f9501b47f1b4b4d35ebde48b4,
+    type: 3}
+  m_PrefabInstance: {fileID: 494241114}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &494241131 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 100004, guid: 9d06f36f9501b47f1b4b4d35ebde48b4,
+    type: 3}
+  m_PrefabInstance: {fileID: 494241114}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &494241132 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 100160, guid: 9d06f36f9501b47f1b4b4d35ebde48b4,
+    type: 3}
+  m_PrefabInstance: {fileID: 494241114}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &494241133 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 100158, guid: 9d06f36f9501b47f1b4b4d35ebde48b4,
+    type: 3}
+  m_PrefabInstance: {fileID: 494241114}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &494241134 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 100032, guid: 9d06f36f9501b47f1b4b4d35ebde48b4,
+    type: 3}
+  m_PrefabInstance: {fileID: 494241114}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &494241135 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 100030, guid: 9d06f36f9501b47f1b4b4d35ebde48b4,
+    type: 3}
+  m_PrefabInstance: {fileID: 494241114}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &494241136 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 100164, guid: 9d06f36f9501b47f1b4b4d35ebde48b4,
+    type: 3}
+  m_PrefabInstance: {fileID: 494241114}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &494241137 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 100162, guid: 9d06f36f9501b47f1b4b4d35ebde48b4,
+    type: 3}
+  m_PrefabInstance: {fileID: 494241114}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &494241138 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 100172, guid: 9d06f36f9501b47f1b4b4d35ebde48b4,
+    type: 3}
+  m_PrefabInstance: {fileID: 494241114}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &494241139 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 100170, guid: 9d06f36f9501b47f1b4b4d35ebde48b4,
+    type: 3}
+  m_PrefabInstance: {fileID: 494241114}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &494241140 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 100168, guid: 9d06f36f9501b47f1b4b4d35ebde48b4,
+    type: 3}
+  m_PrefabInstance: {fileID: 494241114}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &494241141 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 100166, guid: 9d06f36f9501b47f1b4b4d35ebde48b4,
+    type: 3}
+  m_PrefabInstance: {fileID: 494241114}
   m_PrefabAsset: {fileID: 0}
 --- !u!1 &500268513
 GameObject:
@@ -2922,7 +3302,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1565819284}
+      - m_Target: {fileID: 494241118}
         m_MethodName: CambiarInfoDistonia
         m_Mode: 3
         m_Arguments:
@@ -3326,7 +3706,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 202.20001, y: 90}
+  m_AnchoredPosition: {x: 202.2002, y: 90}
   m_SizeDelta: {x: 47, y: -40}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &533123758
@@ -3369,7 +3749,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1565819284}
+      - m_Target: {fileID: 494241118}
         m_MethodName: CambiarInfoDistonia
         m_Mode: 3
         m_Arguments:
@@ -3498,7 +3878,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1565819284}
+      - m_Target: {fileID: 494241118}
         m_MethodName: CambiarInfoDistonia
         m_Mode: 3
         m_Arguments:
@@ -3607,7 +3987,7 @@ MonoBehaviour:
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_FontData:
     m_Font: {fileID: 12800000, guid: b934c0b4816af2847a18b32fede8d5b9, type: 3}
-    m_FontSize: 22
+    m_FontSize: 21
     m_FontStyle: 0
     m_BestFit: 0
     m_MinSize: 2
@@ -3618,7 +3998,9 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Escaleno medio
+  m_Text: 'Escaleno
+
+    medio'
 --- !u!222 &549980603
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -3686,10 +4068,10 @@ MonoBehaviour:
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_FontData:
     m_Font: {fileID: 12800000, guid: b934c0b4816af2847a18b32fede8d5b9, type: 3}
-    m_FontSize: 22
+    m_FontSize: 18
     m_FontStyle: 0
     m_BestFit: 0
-    m_MinSize: 2
+    m_MinSize: 1
     m_MaxSize: 40
     m_Alignment: 4
     m_AlignByGeometry: 0
@@ -3743,7 +4125,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: 0, y: 165}
-  m_SizeDelta: {x: 185, y: 70}
+  m_SizeDelta: {x: 185, y: 65}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &559408511
 MonoBehaviour:
@@ -3785,7 +4167,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1565819284}
+      - m_Target: {fileID: 494241118}
         m_MethodName: CambiarInfoDistonia
         m_Mode: 3
         m_Arguments:
@@ -3894,7 +4276,7 @@ MonoBehaviour:
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_FontData:
     m_Font: {fileID: 12800000, guid: b934c0b4816af2847a18b32fede8d5b9, type: 3}
-    m_FontSize: 22
+    m_FontSize: 20
     m_FontStyle: 0
     m_BestFit: 0
     m_MinSize: 2
@@ -3905,7 +4287,9 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Oblicuo de la cabeza
+  m_Text: 'Oblicuo de
+
+    la cabeza'
 --- !u!222 &563307344
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -4072,7 +4456,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1565819284}
+      - m_Target: {fileID: 494241118}
         m_MethodName: CambiarInfoDistonia
         m_Mode: 3
         m_Arguments:
@@ -4201,7 +4585,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1565819284}
+      - m_Target: {fileID: 494241118}
         m_MethodName: CambiarInfoDistonia
         m_Mode: 3
         m_Arguments:
@@ -4310,7 +4694,7 @@ MonoBehaviour:
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_FontData:
     m_Font: {fileID: 12800000, guid: b934c0b4816af2847a18b32fede8d5b9, type: 3}
-    m_FontSize: 22
+    m_FontSize: 20
     m_FontStyle: 0
     m_BestFit: 0
     m_MinSize: 2
@@ -4409,7 +4793,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1565819284}
+      - m_Target: {fileID: 494241118}
         m_MethodName: CambiarInfoDistonia
         m_Mode: 3
         m_Arguments:
@@ -4496,7 +4880,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: -190, y: 165}
-  m_SizeDelta: {x: 185, y: 70}
+  m_SizeDelta: {x: 185, y: 65}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &628689593
 MonoBehaviour:
@@ -4538,7 +4922,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1565819284}
+      - m_Target: {fileID: 494241118}
         m_MethodName: CambiarInfoDistonia
         m_Mode: 3
         m_Arguments:
@@ -4588,12 +4972,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 628689591}
   m_CullTransparentMesh: 0
---- !u!1 &648382254 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 100066, guid: 9b4e17771f1434823b7eb7627b917ecb,
-    type: 3}
-  m_PrefabInstance: {fileID: 1520764339}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &650973881
 GameObject:
   m_ObjectHideFlags: 0
@@ -4630,7 +5008,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -135, y: 195}
+  m_AnchoredPosition: {x: -135, y: 180}
   m_SizeDelta: {x: 245, y: 70}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &650973883
@@ -4673,7 +5051,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1565819284}
+      - m_Target: {fileID: 494241118}
         m_MethodName: CambiarInfoDistonia
         m_Mode: 3
         m_Arguments:
@@ -4759,7 +5137,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 135, y: 195}
+  m_AnchoredPosition: {x: 135, y: 180}
   m_SizeDelta: {x: 165, y: 70}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &682686090
@@ -4802,7 +5180,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1565819284}
+      - m_Target: {fileID: 494241118}
         m_MethodName: CambiarInfoDistonia
         m_Mode: 3
         m_Arguments:
@@ -5265,7 +5643,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &739361939
 RectTransform:
   m_ObjectHideFlags: 0
@@ -5289,12 +5667,6 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 7}
   m_SizeDelta: {x: -510, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
---- !u!1 &749411755 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 100028, guid: 9b4e17771f1434823b7eb7627b917ecb,
-    type: 3}
-  m_PrefabInstance: {fileID: 1520764339}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &751178405
 GameObject:
   m_ObjectHideFlags: 0
@@ -5405,7 +5777,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 100, y: 0}
+  m_AnchoredPosition: {x: 100, y: 34}
   m_SizeDelta: {x: 82, y: -30}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &757145551
@@ -5448,7 +5820,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1565819284}
+      - m_Target: {fileID: 494241118}
         m_MethodName: CambiarInfoDistonia
         m_Mode: 3
         m_Arguments:
@@ -5498,18 +5870,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 757145549}
   m_CullTransparentMesh: 0
---- !u!1 &774005388 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 100094, guid: 9b4e17771f1434823b7eb7627b917ecb,
-    type: 3}
-  m_PrefabInstance: {fileID: 1520764339}
-  m_PrefabAsset: {fileID: 0}
---- !u!1 &784925507 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 100106, guid: 9b4e17771f1434823b7eb7627b917ecb,
-    type: 3}
-  m_PrefabInstance: {fileID: 1520764339}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &801472289
 GameObject:
   m_ObjectHideFlags: 0
@@ -5547,7 +5907,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 300, y: 70}
+  m_SizeDelta: {x: 300, y: 65}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &801472291
 MonoBehaviour:
@@ -5589,7 +5949,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1565819284}
+      - m_Target: {fileID: 494241118}
         m_MethodName: CambiarInfoDistonia
         m_Mode: 3
         m_Arguments:
@@ -5639,12 +5999,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 801472289}
   m_CullTransparentMesh: 0
---- !u!1 &805531733 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 100034, guid: 9b4e17771f1434823b7eb7627b917ecb,
-    type: 3}
-  m_PrefabInstance: {fileID: 1520764339}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &835640744
 GameObject:
   m_ObjectHideFlags: 0
@@ -5741,7 +6095,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &856046868
 RectTransform:
   m_ObjectHideFlags: 0
@@ -5770,8 +6124,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0, y: -275}
-  m_SizeDelta: {x: 0, y: -550}
+  m_AnchoredPosition: {x: 0, y: -300}
+  m_SizeDelta: {x: 0, y: -600}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &856046869
 MonoBehaviour:
@@ -6049,7 +6403,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1565819284}
+      - m_Target: {fileID: 494241118}
         m_MethodName: CambiarInfoDistonia
         m_Mode: 3
         m_Arguments:
@@ -6178,7 +6532,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1565819284}
+      - m_Target: {fileID: 494241118}
         m_MethodName: CambiarInfoDistonia
         m_Mode: 3
         m_Arguments:
@@ -6307,7 +6661,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1565819284}
+      - m_Target: {fileID: 494241118}
         m_MethodName: CambiarInfoDistonia
         m_Mode: 3
         m_Arguments:
@@ -6517,7 +6871,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1565819284}
+      - m_Target: {fileID: 494241118}
         m_MethodName: CambiarInfoDistonia
         m_Mode: 3
         m_Arguments:
@@ -6676,7 +7030,7 @@ MonoBehaviour:
   m_OnValueChanged:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1565819285}
+      - m_Target: {fileID: 494241119}
         m_MethodName: Dropdown_IndexChanged
         m_Mode: 0
         m_Arguments:
@@ -6763,7 +7117,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: -100, y: 80}
-  m_SizeDelta: {x: 185, y: 70}
+  m_SizeDelta: {x: 185, y: 65}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1017641947
 MonoBehaviour:
@@ -6805,7 +7159,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1565819284}
+      - m_Target: {fileID: 494241118}
         m_MethodName: CambiarInfoDistonia
         m_Mode: 3
         m_Arguments:
@@ -6934,7 +7288,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1565819284}
+      - m_Target: {fileID: 494241118}
         m_MethodName: CambiarInfoDistonia
         m_Mode: 3
         m_Arguments:
@@ -7151,7 +7505,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0, y: 99}
+  m_AnchoredPosition: {x: 0, y: 78}
   m_SizeDelta: {x: -400, y: -30}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1057068195
@@ -7194,7 +7548,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1565819284}
+      - m_Target: {fileID: 494241118}
         m_MethodName: CambiarInfoDistonia
         m_Mode: 3
         m_Arguments:
@@ -7379,12 +7733,6 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 50, y: -30, z: 0}
---- !u!1 &1131785645 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 100162, guid: 9b4e17771f1434823b7eb7627b917ecb,
-    type: 3}
-  m_PrefabInstance: {fileID: 1520764339}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1140770054
 GameObject:
   m_ObjectHideFlags: 0
@@ -7518,7 +7866,7 @@ MonoBehaviour:
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_FontData:
     m_Font: {fileID: 12800000, guid: b934c0b4816af2847a18b32fede8d5b9, type: 3}
-    m_FontSize: 22
+    m_FontSize: 20
     m_FontStyle: 0
     m_BestFit: 0
     m_MinSize: 2
@@ -7529,7 +7877,9 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Trapecio
+  m_Text: 'Trapecio
+
+    inferior'
 --- !u!222 &1143028173
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -7597,7 +7947,7 @@ MonoBehaviour:
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_FontData:
     m_Font: {fileID: 12800000, guid: b934c0b4816af2847a18b32fede8d5b9, type: 3}
-    m_FontSize: 22
+    m_FontSize: 20
     m_FontStyle: 0
     m_BestFit: 0
     m_MinSize: 2
@@ -7698,7 +8048,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1565819284}
+      - m_Target: {fileID: 494241118}
         m_MethodName: CambiarInfoDistonia
         m_Mode: 3
         m_Arguments:
@@ -8064,7 +8414,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1565819284}
+      - m_Target: {fileID: 494241118}
         m_MethodName: CambiarInfoDistonia
         m_Mode: 3
         m_Arguments:
@@ -8231,7 +8581,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1565819284}
+      - m_Target: {fileID: 494241118}
         m_MethodName: CambiarInfoDistonia
         m_Mode: 3
         m_Arguments:
@@ -8588,7 +8938,7 @@ MonoBehaviour:
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_FontData:
     m_Font: {fileID: 12800000, guid: b934c0b4816af2847a18b32fede8d5b9, type: 3}
-    m_FontSize: 22
+    m_FontSize: 21
     m_FontStyle: 0
     m_BestFit: 0
     m_MinSize: 2
@@ -8768,7 +9118,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1565819284}
+      - m_Target: {fileID: 494241118}
         m_MethodName: CambiarInfoDistonia
         m_Mode: 3
         m_Arguments:
@@ -8854,7 +9204,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -100, y: 100}
+  m_AnchoredPosition: {x: -100, y: 134}
   m_SizeDelta: {x: 82, y: -30}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1277359630
@@ -8897,7 +9247,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1565819284}
+      - m_Target: {fileID: 494241118}
         m_MethodName: CambiarInfoDistonia
         m_Mode: 3
         m_Arguments:
@@ -9285,7 +9635,7 @@ MonoBehaviour:
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_FontData:
     m_Font: {fileID: 12800000, guid: b934c0b4816af2847a18b32fede8d5b9, type: 3}
-    m_FontSize: 22
+    m_FontSize: 20
     m_FontStyle: 0
     m_BestFit: 0
     m_MinSize: 2
@@ -9389,7 +9739,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: 100, y: 80}
-  m_SizeDelta: {x: 160, y: 70}
+  m_SizeDelta: {x: 160, y: 65}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1406392882
 MonoBehaviour:
@@ -9431,7 +9781,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1565819284}
+      - m_Target: {fileID: 494241118}
         m_MethodName: CambiarInfoDistonia
         m_Mode: 3
         m_Arguments:
@@ -9560,7 +9910,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1565819284}
+      - m_Target: {fileID: 494241118}
         m_MethodName: CambiarInfoDistonia
         m_Mode: 3
         m_Arguments:
@@ -9610,18 +9960,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1420164953}
   m_CullTransparentMesh: 0
---- !u!1 &1430951063 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 100026, guid: 9b4e17771f1434823b7eb7627b917ecb,
-    type: 3}
-  m_PrefabInstance: {fileID: 1520764339}
-  m_PrefabAsset: {fileID: 0}
---- !u!1 &1435657980 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 100030, guid: 9b4e17771f1434823b7eb7627b917ecb,
-    type: 3}
-  m_PrefabInstance: {fileID: 1520764339}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1437155638
 GameObject:
   m_ObjectHideFlags: 0
@@ -9835,7 +10173,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 100, y: 100}
+  m_AnchoredPosition: {x: 100, y: 134}
   m_SizeDelta: {x: 82, y: -30}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1456119033
@@ -9878,7 +10216,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1565819284}
+      - m_Target: {fileID: 494241118}
         m_MethodName: CambiarInfoDistonia
         m_Mode: 3
         m_Arguments:
@@ -9928,12 +10266,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1456119031}
   m_CullTransparentMesh: 0
---- !u!1 &1466107282 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 100160, guid: 9b4e17771f1434823b7eb7627b917ecb,
-    type: 3}
-  m_PrefabInstance: {fileID: 1520764339}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1484656887
 GameObject:
   m_ObjectHideFlags: 0
@@ -9993,7 +10325,7 @@ MonoBehaviour:
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_FontData:
     m_Font: {fileID: 12800000, guid: b934c0b4816af2847a18b32fede8d5b9, type: 3}
-    m_FontSize: 22
+    m_FontSize: 21
     m_FontStyle: 0
     m_BestFit: 0
     m_MinSize: 2
@@ -10004,7 +10336,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "Long\xEDsimo del\ncuello"
+  m_Text: "Long\xEDsimo\ndel cuello"
 --- !u!222 &1484656890
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -10102,209 +10434,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_ShowMaskGraphic: 0
---- !u!1 &1502561606 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 100046, guid: 9b4e17771f1434823b7eb7627b917ecb,
-    type: 3}
-  m_PrefabInstance: {fileID: 1520764339}
-  m_PrefabAsset: {fileID: 0}
---- !u!1001 &1520764339
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    m_TransformParent: {fileID: 0}
-    m_Modifications:
-    - target: {fileID: 100000, guid: 9b4e17771f1434823b7eb7627b917ecb, type: 3}
-      propertyPath: m_Name
-      value: "Anatomico_Distoni\u0301a_2_05-02-2019"
-      objectReference: {fileID: 0}
-    - target: {fileID: 100002, guid: 9b4e17771f1434823b7eb7627b917ecb, type: 3}
-      propertyPath: m_IsActive
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 100004, guid: 9b4e17771f1434823b7eb7627b917ecb, type: 3}
-      propertyPath: m_IsActive
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 100012, guid: 9b4e17771f1434823b7eb7627b917ecb, type: 3}
-      propertyPath: m_IsActive
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 100014, guid: 9b4e17771f1434823b7eb7627b917ecb, type: 3}
-      propertyPath: m_IsActive
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 100026, guid: 9b4e17771f1434823b7eb7627b917ecb, type: 3}
-      propertyPath: m_IsActive
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 100028, guid: 9b4e17771f1434823b7eb7627b917ecb, type: 3}
-      propertyPath: m_IsActive
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 100030, guid: 9b4e17771f1434823b7eb7627b917ecb, type: 3}
-      propertyPath: m_IsActive
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 100032, guid: 9b4e17771f1434823b7eb7627b917ecb, type: 3}
-      propertyPath: m_IsActive
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 100034, guid: 9b4e17771f1434823b7eb7627b917ecb, type: 3}
-      propertyPath: m_IsActive
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 100036, guid: 9b4e17771f1434823b7eb7627b917ecb, type: 3}
-      propertyPath: m_IsActive
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 100038, guid: 9b4e17771f1434823b7eb7627b917ecb, type: 3}
-      propertyPath: m_IsActive
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 100040, guid: 9b4e17771f1434823b7eb7627b917ecb, type: 3}
-      propertyPath: m_IsActive
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 100042, guid: 9b4e17771f1434823b7eb7627b917ecb, type: 3}
-      propertyPath: m_IsActive
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 100044, guid: 9b4e17771f1434823b7eb7627b917ecb, type: 3}
-      propertyPath: m_IsActive
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 100066, guid: 9b4e17771f1434823b7eb7627b917ecb, type: 3}
-      propertyPath: m_IsActive
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 100094, guid: 9b4e17771f1434823b7eb7627b917ecb, type: 3}
-      propertyPath: m_IsActive
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 100106, guid: 9b4e17771f1434823b7eb7627b917ecb, type: 3}
-      propertyPath: m_IsActive
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 100110, guid: 9b4e17771f1434823b7eb7627b917ecb, type: 3}
-      propertyPath: m_IsActive
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 100116, guid: 9b4e17771f1434823b7eb7627b917ecb, type: 3}
-      propertyPath: m_IsActive
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 100116, guid: 9b4e17771f1434823b7eb7627b917ecb, type: 3}
-      propertyPath: m_Name
-      value: Nervio_Auriculotemporal 50
-      objectReference: {fileID: 0}
-    - target: {fileID: 100118, guid: 9b4e17771f1434823b7eb7627b917ecb, type: 3}
-      propertyPath: m_IsActive
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 100120, guid: 9b4e17771f1434823b7eb7627b917ecb, type: 3}
-      propertyPath: m_IsActive
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 100122, guid: 9b4e17771f1434823b7eb7627b917ecb, type: 3}
-      propertyPath: m_IsActive
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 100124, guid: 9b4e17771f1434823b7eb7627b917ecb, type: 3}
-      propertyPath: m_IsActive
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 100126, guid: 9b4e17771f1434823b7eb7627b917ecb, type: 3}
-      propertyPath: m_IsActive
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 100128, guid: 9b4e17771f1434823b7eb7627b917ecb, type: 3}
-      propertyPath: m_IsActive
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 100132, guid: 9b4e17771f1434823b7eb7627b917ecb, type: 3}
-      propertyPath: m_IsActive
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 100160, guid: 9b4e17771f1434823b7eb7627b917ecb, type: 3}
-      propertyPath: m_IsActive
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 100162, guid: 9b4e17771f1434823b7eb7627b917ecb, type: 3}
-      propertyPath: m_IsActive
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 100164, guid: 9b4e17771f1434823b7eb7627b917ecb, type: 3}
-      propertyPath: m_IsActive
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 100166, guid: 9b4e17771f1434823b7eb7627b917ecb, type: 3}
-      propertyPath: m_IsActive
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 400000, guid: 9b4e17771f1434823b7eb7627b917ecb, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 400000, guid: 9b4e17771f1434823b7eb7627b917ecb, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: -0.5
-      objectReference: {fileID: 0}
-    - target: {fileID: 400000, guid: 9b4e17771f1434823b7eb7627b917ecb, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 90.18
-      objectReference: {fileID: 0}
-    - target: {fileID: 400000, guid: 9b4e17771f1434823b7eb7627b917ecb, type: 3}
-      propertyPath: m_LocalRotation.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 400000, guid: 9b4e17771f1434823b7eb7627b917ecb, type: 3}
-      propertyPath: m_LocalRotation.y
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 400000, guid: 9b4e17771f1434823b7eb7627b917ecb, type: 3}
-      propertyPath: m_LocalRotation.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 400000, guid: 9b4e17771f1434823b7eb7627b917ecb, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 400000, guid: 9b4e17771f1434823b7eb7627b917ecb, type: 3}
-      propertyPath: m_RootOrder
-      value: 3
-      objectReference: {fileID: 0}
-    - target: {fileID: 400000, guid: 9b4e17771f1434823b7eb7627b917ecb, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 400000, guid: 9b4e17771f1434823b7eb7627b917ecb, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 180
-      objectReference: {fileID: 0}
-    - target: {fileID: 400000, guid: 9b4e17771f1434823b7eb7627b917ecb, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 400000, guid: 9b4e17771f1434823b7eb7627b917ecb, type: 3}
-      propertyPath: m_LocalScale.x
-      value: 260
-      objectReference: {fileID: 0}
-    - target: {fileID: 400000, guid: 9b4e17771f1434823b7eb7627b917ecb, type: 3}
-      propertyPath: m_LocalScale.y
-      value: 260
-      objectReference: {fileID: 0}
-    - target: {fileID: 400000, guid: 9b4e17771f1434823b7eb7627b917ecb, type: 3}
-      propertyPath: m_LocalScale.z
-      value: 260
-      objectReference: {fileID: 0}
-    - target: {fileID: 9500000, guid: 9b4e17771f1434823b7eb7627b917ecb, type: 3}
-      propertyPath: m_Controller
-      value: 
-      objectReference: {fileID: 9100000, guid: b013de9879d264e109765dc27679600c, type: 2}
-    m_RemovedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: 9b4e17771f1434823b7eb7627b917ecb, type: 3}
 --- !u!1 &1526794349
 GameObject:
   m_ObjectHideFlags: 0
@@ -10384,7 +10513,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1565819284}
+      - m_Target: {fileID: 494241118}
         m_MethodName: CambiarInfoDistonia
         m_Mode: 3
         m_Arguments:
@@ -10574,10 +10703,10 @@ MonoBehaviour:
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_FontData:
     m_Font: {fileID: 12800000, guid: b934c0b4816af2847a18b32fede8d5b9, type: 3}
-    m_FontSize: 22
+    m_FontSize: 18
     m_FontStyle: 0
     m_BestFit: 0
-    m_MinSize: 2
+    m_MinSize: 1
     m_MaxSize: 40
     m_Alignment: 4
     m_AlignByGeometry: 0
@@ -10594,12 +10723,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1529086292}
   m_CullTransparentMesh: 0
---- !u!1 &1538627146 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 100012, guid: 9b4e17771f1434823b7eb7627b917ecb,
-    type: 3}
-  m_PrefabInstance: {fileID: 1520764339}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1552687264
 GameObject:
   m_ObjectHideFlags: 0
@@ -10674,12 +10797,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1552687264}
   m_CullTransparentMesh: 0
---- !u!1 &1558394602 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 100110, guid: 9b4e17771f1434823b7eb7627b917ecb,
-    type: 3}
-  m_PrefabInstance: {fileID: 1520764339}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1560077263
 GameObject:
   m_ObjectHideFlags: 0
@@ -10739,10 +10856,10 @@ MonoBehaviour:
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_FontData:
     m_Font: {fileID: 12800000, guid: b934c0b4816af2847a18b32fede8d5b9, type: 3}
-    m_FontSize: 22
+    m_FontSize: 18
     m_FontStyle: 0
     m_BestFit: 0
-    m_MinSize: 2
+    m_MinSize: 1
     m_MaxSize: 40
     m_Alignment: 4
     m_AlignByGeometry: 0
@@ -10759,124 +10876,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1560077263}
   m_CullTransparentMesh: 0
---- !u!1 &1565819283 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 100000, guid: 9b4e17771f1434823b7eb7627b917ecb,
-    type: 3}
-  m_PrefabInstance: {fileID: 1520764339}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &1565819284
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1565819283}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 21f63d90d474c4c319892cd90946169b, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  InfoMusculos: {fileID: 1337148551}
-  Panel: {fileID: 856046867}
-  _materialFosforescente: {fileID: 2100000, guid: 0e662dea8ec924e4ebbe3b477095c335,
-    type: 2}
-  ocultarEscapulae:
-  - {fileID: 1558394602}
-  - {fileID: 252359318}
-  - {fileID: 482414908}
-  - {fileID: 1435657980}
-  - {fileID: 1784906789}
-  - {fileID: 1466107282}
-  - {fileID: 1131785645}
-  ocultarLonCapitis:
-  - {fileID: 191989487}
-  - {fileID: 1538627146}
-  - {fileID: 67186519}
-  - {fileID: 1430951063}
-  - {fileID: 749411755}
-  - {fileID: 388206679}
-  - {fileID: 113915337}
-  - {fileID: 648382254}
-  - {fileID: 784925507}
-  ocultarLonColli:
-  - {fileID: 784925507}
-  - {fileID: 774005388}
-  - {fileID: 1538627146}
-  - {fileID: 67186519}
-  - {fileID: 1430951063}
-  - {fileID: 749411755}
-  ocultarEscMedio:
-  - {fileID: 784925507}
-  - {fileID: 774005388}
-  - {fileID: 1538627146}
-  - {fileID: 67186519}
-  - {fileID: 191989487}
-  - {fileID: 1430951063}
-  - {fileID: 749411755}
-  ocultarSemispinalisCapitis:
-  - {fileID: 1558394602}
-  - {fileID: 252359318}
-  - {fileID: 482414908}
-  - {fileID: 1435657980}
-  - {fileID: 1784906789}
-  ocultarSemispinalisCervis:
-  - {fileID: 1558394602}
-  - {fileID: 252359318}
-  - {fileID: 482414908}
-  - {fileID: 1466107282}
-  - {fileID: 1131785645}
-  - {fileID: 1435657980}
-  - {fileID: 1784906789}
-  - {fileID: 805531733}
-  - {fileID: 1872136993}
-  ocultarLongisimusCapitis:
-  - {fileID: 1558394602}
-  - {fileID: 252359318}
-  - {fileID: 482414908}
-  - {fileID: 1466107282}
-  - {fileID: 1131785645}
-  - {fileID: 805531733}
-  - {fileID: 1872136993}
-  ocultarSpleniusCapitis:
-  - {fileID: 1558394602}
-  - {fileID: 1466107282}
-  - {fileID: 1131785645}
-  - {fileID: 1435657980}
-  - {fileID: 1784906789}
-  - {fileID: 805531733}
-  - {fileID: 1872136993}
---- !u!114 &1565819285
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1565819283}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fb6a2f39898704b9f8131d9b3ac204d3, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  animator: {fileID: 1565819286}
-  _puntosRefAnatomica: {fileID: 1502561606}
-  botonesMusculosDistonias:
-  - {fileID: 1241059159}
-  - {fileID: 79318889}
-  - {fileID: 1939650245}
-  - {fileID: 103430202}
-  - {fileID: 258283331}
-  - {fileID: 730733154}
-  - {fileID: 447778995}
-  - {fileID: 1221454615}
-  - {fileID: 739361938}
-  - {fileID: 1308016681}
---- !u!95 &1565819286 stripped
-Animator:
-  m_CorrespondingSourceObject: {fileID: 9500000, guid: 9b4e17771f1434823b7eb7627b917ecb,
-    type: 3}
-  m_PrefabInstance: {fileID: 1520764339}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1567852544
 GameObject:
   m_ObjectHideFlags: 0
@@ -11017,10 +11016,10 @@ MonoBehaviour:
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_FontData:
     m_Font: {fileID: 12800000, guid: b934c0b4816af2847a18b32fede8d5b9, type: 3}
-    m_FontSize: 22
+    m_FontSize: 18
     m_FontStyle: 0
     m_BestFit: 0
-    m_MinSize: 2
+    m_MinSize: 1
     m_MaxSize: 40
     m_Alignment: 4
     m_AlignByGeometry: 0
@@ -11098,7 +11097,7 @@ MonoBehaviour:
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_FontData:
     m_Font: {fileID: 12800000, guid: b934c0b4816af2847a18b32fede8d5b9, type: 3}
-    m_FontSize: 22
+    m_FontSize: 20
     m_FontStyle: 0
     m_BestFit: 0
     m_MinSize: 2
@@ -11109,7 +11108,9 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Esplenio de la cabeza
+  m_Text: 'Esplenio de
+
+    la cabeza'
 --- !u!222 &1606403649
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -11251,7 +11252,7 @@ MonoBehaviour:
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_FontData:
     m_Font: {fileID: 12800000, guid: b934c0b4816af2847a18b32fede8d5b9, type: 3}
-    m_FontSize: 22
+    m_FontSize: 20
     m_FontStyle: 0
     m_BestFit: 0
     m_MinSize: 2
@@ -11262,7 +11263,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "Elevador de la esc\xE1pula"
+  m_Text: "Elevador de\nla esc\xE1pula"
 --- !u!222 &1630699854
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -11350,7 +11351,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1565819284}
+      - m_Target: {fileID: 494241118}
         m_MethodName: CambiarInfoDistonia
         m_Mode: 3
         m_Arguments:
@@ -11586,7 +11587,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1565819284}
+      - m_Target: {fileID: 494241118}
         m_MethodName: CambiarInfoDistonia
         m_Mode: 3
         m_Arguments:
@@ -11796,7 +11797,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1565819284}
+      - m_Target: {fileID: 494241118}
         m_MethodName: CambiarInfoDistonia
         m_Mode: 3
         m_Arguments:
@@ -12004,7 +12005,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1565819284}
+      - m_Target: {fileID: 494241118}
         m_MethodName: CambiarInfoDistonia
         m_Mode: 3
         m_Arguments:
@@ -12342,7 +12343,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0, y: 103}
+  m_AnchoredPosition: {x: 0, y: 81}
   m_SizeDelta: {x: 152, y: -40}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1782462284
@@ -12385,7 +12386,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1565819284}
+      - m_Target: {fileID: 494241118}
         m_MethodName: CambiarInfoDistonia
         m_Mode: 3
         m_Arguments:
@@ -12435,12 +12436,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1782462282}
   m_CullTransparentMesh: 0
---- !u!1 &1784906789 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 100032, guid: 9b4e17771f1434823b7eb7627b917ecb,
-    type: 3}
-  m_PrefabInstance: {fileID: 1520764339}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1806305748
 GameObject:
   m_ObjectHideFlags: 0
@@ -12477,7 +12472,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0, y: -0.000015258789}
+  m_AnchoredPosition: {x: 0, y: -22.000021}
   m_SizeDelta: {x: 152, y: -40}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1806305750
@@ -12520,7 +12515,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1565819284}
+      - m_Target: {fileID: 494241118}
         m_MethodName: CambiarInfoDistonia
         m_Mode: 3
         m_Arguments:
@@ -12778,7 +12773,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1565819285}
+      - m_Target: {fileID: 494241119}
         m_MethodName: EncenderReferencias
         m_Mode: 1
         m_Arguments:
@@ -12986,7 +12981,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1565819284}
+      - m_Target: {fileID: 494241118}
         m_MethodName: MostrarPanel
         m_Mode: 1
         m_Arguments:
@@ -13174,7 +13169,7 @@ MonoBehaviour:
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_FontData:
     m_Font: {fileID: 12800000, guid: b934c0b4816af2847a18b32fede8d5b9, type: 3}
-    m_FontSize: 22
+    m_FontSize: 20
     m_FontStyle: 0
     m_BestFit: 0
     m_MinSize: 2
@@ -13194,12 +13189,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1863645329}
   m_CullTransparentMesh: 0
---- !u!1 &1872136993 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 100036, guid: 9b4e17771f1434823b7eb7627b917ecb,
-    type: 3}
-  m_PrefabInstance: {fileID: 1520764339}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1895530165
 GameObject:
   m_ObjectHideFlags: 0
@@ -13236,7 +13225,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0, y: 207}
+  m_AnchoredPosition: {x: 0, y: 185}
   m_SizeDelta: {x: 152, y: -40}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1895530167
@@ -13279,7 +13268,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1565819284}
+      - m_Target: {fileID: 494241118}
         m_MethodName: CambiarInfoDistonia
         m_Mode: 3
         m_Arguments:
@@ -13388,10 +13377,10 @@ MonoBehaviour:
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_FontData:
     m_Font: {fileID: 12800000, guid: b934c0b4816af2847a18b32fede8d5b9, type: 3}
-    m_FontSize: 22
+    m_FontSize: 18
     m_FontStyle: 0
     m_BestFit: 0
-    m_MinSize: 2
+    m_MinSize: 1
     m_MaxSize: 40
     m_Alignment: 4
     m_AlignByGeometry: 0
@@ -13467,10 +13456,10 @@ MonoBehaviour:
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_FontData:
     m_Font: {fileID: 12800000, guid: b934c0b4816af2847a18b32fede8d5b9, type: 3}
-    m_FontSize: 20
+    m_FontSize: 18
     m_FontStyle: 0
     m_BestFit: 0
-    m_MinSize: 2
+    m_MinSize: 1
     m_MaxSize: 40
     m_Alignment: 4
     m_AlignByGeometry: 0
@@ -13566,7 +13555,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1565819284}
+      - m_Target: {fileID: 494241118}
         m_MethodName: CambiarInfoDistonia
         m_Mode: 3
         m_Arguments:
@@ -14019,7 +14008,7 @@ MonoBehaviour:
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_FontData:
     m_Font: {fileID: 12800000, guid: b934c0b4816af2847a18b32fede8d5b9, type: 3}
-    m_FontSize: 22
+    m_FontSize: 20
     m_FontStyle: 0
     m_BestFit: 0
     m_MinSize: 2
@@ -14071,7 +14060,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   MenuIzquierdo: {fileID: 1760680519}
-  cabeza: {fileID: 1565819283}
+  cabeza: {fileID: 494241115}
   rotSpeed: 0.4
   dir: 1
 --- !u!4 &2003446339
@@ -14300,10 +14289,10 @@ MonoBehaviour:
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_FontData:
     m_Font: {fileID: 12800000, guid: b934c0b4816af2847a18b32fede8d5b9, type: 3}
-    m_FontSize: 22
+    m_FontSize: 18
     m_FontStyle: 0
     m_BestFit: 0
-    m_MinSize: 2
+    m_MinSize: 1
     m_MaxSize: 40
     m_Alignment: 4
     m_AlignByGeometry: 0
@@ -14437,10 +14426,10 @@ RectTransform:
   m_Father: {fileID: 856046868}
   m_RootOrder: 10
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 1, y: 0}
-  m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -78, y: 279}
-  m_SizeDelta: {x: 160, y: -500}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 226, y: 255}
+  m_SizeDelta: {x: 160, y: 35}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2026752410
 MonoBehaviour:
@@ -14482,7 +14471,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1565819284}
+      - m_Target: {fileID: 494241118}
         m_MethodName: OcultarPanel
         m_Mode: 1
         m_Arguments:
@@ -14693,7 +14682,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1565819284}
+      - m_Target: {fileID: 494241118}
         m_MethodName: CambiarInfoDistonia
         m_Mode: 3
         m_Arguments:
@@ -14802,7 +14791,7 @@ MonoBehaviour:
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_FontData:
     m_Font: {fileID: 12800000, guid: b934c0b4816af2847a18b32fede8d5b9, type: 3}
-    m_FontSize: 25
+    m_FontSize: 23
     m_FontStyle: 0
     m_BestFit: 0
     m_MinSize: 2
@@ -14883,7 +14872,7 @@ MonoBehaviour:
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_FontData:
     m_Font: {fileID: 12800000, guid: b934c0b4816af2847a18b32fede8d5b9, type: 3}
-    m_FontSize: 22
+    m_FontSize: 20
     m_FontStyle: 0
     m_BestFit: 0
     m_MinSize: 2
@@ -15065,7 +15054,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1565819284}
+      - m_Target: {fileID: 494241118}
         m_MethodName: CambiarInfoDistonia
         m_Mode: 3
         m_Arguments:
@@ -15279,7 +15268,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1565819284}
+      - m_Target: {fileID: 494241118}
         m_MethodName: CambiarInfoDistonia
         m_Mode: 3
         m_Arguments:
