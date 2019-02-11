@@ -9,7 +9,7 @@ using UnityEngine.UI;
 public class CambiarDistonia : MonoBehaviour
 {
 	public Animator animator;
-	float smooth = 5.0f;
+	//float smooth = 5.0f;
 	private int posActual = 0;
 	
 	[SerializeField] private GameObject _puntosRefAnatomica;
@@ -26,11 +26,6 @@ public class CambiarDistonia : MonoBehaviour
 
 		//Todos los puntos de referencia
 		_puntosRefAnatomica.SetActive(false);
-	}
-
-	private void FixedUpdate()
-	{
-		//
 	}
 
 	IEnumerator WaitAndMove(int posActual, int posNueva)
