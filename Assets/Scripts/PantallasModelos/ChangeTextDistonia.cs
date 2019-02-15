@@ -215,7 +215,7 @@ public class ChangeTextDistonia : MonoBehaviour
 			case 2: //Largo de la cabeza || Longus capitis
 				InfoMusculos.text = "50-150U/VISITA \n\nBilateral";
 				transform.eulerAngles = new Vector3(rotX, rotY, 0f);
-                transform.Rotate(-23, 15, 0, Space.World);
+                transform.Rotate(23, 15, 0, Space.World);
                 Seleccion(12, 13, true);
 				foreach (GameObject tapa in ocultarLonCapitis)
 				{
@@ -247,7 +247,7 @@ public class ChangeTextDistonia : MonoBehaviour
 			case 5: //Scalenus Medius || Escaleno medio
 				InfoMusculos.text = "15-50U/VISITA\n\nBilateral";
 				transform.eulerAngles = new Vector3(rotX, rotY, 0f);
-                transform.Rotate(-13.5f, 30, 0, Space.World);
+                transform.Rotate(13.5f, 30, 0, Space.World);
                 Seleccion(1,2, true);
 				foreach (GameObject tapa in ocultarEscMedio)
 				{
