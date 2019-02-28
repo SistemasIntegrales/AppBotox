@@ -35,6 +35,9 @@ public class SeleccionMenu : MonoBehaviour
 				case 7:
 					SceneManager.LoadScene(sceneIndex - 6);
 					break;
+				case 8:
+					SceneManager.LoadScene(sceneIndex - 7);
+					break;
 				default:
 					break;
 			}
@@ -75,25 +78,9 @@ public class SeleccionMenu : MonoBehaviour
 		//Cambio a Pantalla Aplicaciones
 		SceneManager.LoadSceneAsync("DistoniaScene");
 	}
-	
-	/*public void PreviousScene()
+	public void ReferenciasPressed()
 	{
-		switch (sceneIndex)
-		{
-			case 3:
-				SceneManager.LoadScene(sceneIndex - 2);
-				break;
-			case 4:
-				SceneManager.LoadScene(sceneIndex - 3);
-				break;
-			case 5:
-				SceneManager.LoadScene(sceneIndex - 4);
-				break;
-			case 6:
-				SceneManager.LoadScene(sceneIndex - 5);
-				break;
-			default:
-				break;
-		}
-	}*/
+		//Cambio a Pantalla Aplicaciones
+		SceneManager.LoadSceneAsync("Referencias");
+	}
 }
