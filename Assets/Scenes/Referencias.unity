@@ -525,12 +525,12 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 203273600}
-        m_MethodName: 
+      - m_Target: {fileID: 203273602}
+        m_MethodName: MainMenuButton
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: 
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
@@ -732,7 +732,18 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 507229322}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 523155292}
+        m_MethodName: EnableDisable
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
     m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
       Culture=neutral, PublicKeyToken=null
 --- !u!114 &507229322
@@ -1007,8 +1018,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: -80, y: -80}
+  m_AnchoredPosition: {x: 0, y: -2.5}
+  m_SizeDelta: {x: -80, y: -55}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &615572759
 MonoBehaviour:
@@ -1032,10 +1043,10 @@ MonoBehaviour:
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_FontData:
     m_Font: {fileID: 12800000, guid: 074e98a2e75aae14d81e4dc0b8a22a74, type: 3}
-    m_FontSize: 20
+    m_FontSize: 19
     m_FontStyle: 1
     m_BestFit: 0
-    m_MinSize: 10
+    m_MinSize: 1
     m_MaxSize: 40
     m_Alignment: 1
     m_AlignByGeometry: 0
@@ -1049,11 +1060,14 @@ MonoBehaviour:
     phase of the PREEMPT 1 trial. Cephalalgia.\n2010; 30(7): 793\u2013803.\n \nDiener
     HC, et al. Original Article. OnabotulinumtoxinA for treatment of chronic migraine:
     Results from the double-blind, randomized, placebo-controlled phase of the PREEMPT
-    2 trial. Cephalalgia.\n2010; 30(7): 804\u2013814.\n \nJost WH, Tatu L. Clinical
-    Practice. Selection of Muscles for Botulinum Toxin Injections in Cervical Dystonia.
-    Movement Disorders Clinical Practice. 2015: 224-226.\n \nReichel G. Cervical dystonia:
-    A new phenomenological classification for botulinum toxin therapy. Basal Ganglia
-    1. 2011: 5\u201312."
+    2 trial. Cephalalgia.\n2010; 30(7): 804\u2013814.\n \nBlumenfeld A, Silberstein
+    SD, Dodick DW, Aurora SK, Turkel CC, Blinder WJ. Method of injection of onabotulinumtoxinA
+    for chronic migraine: a safe, well-tolerated, and effective treatment paradigm
+    based on the PREEMPT clinical program. Headache. 2010; 50 (9):1406-18.\n \nJost
+    WH, Tatu L. Clinical Practice. Selection of Muscles for Botulinum Toxin Injections
+    in Cervical Dystonia. Movement Disorders Clinical Practice. 2015: 224-226.\n \nReichel
+    G. Cervical dystonia: A new phenomenological classification for botulinum toxin
+    therapy. Basal Ganglia 1. 2011: 5\u201312."
 --- !u!222 &615572760
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -1106,8 +1120,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   CanvasGroup: {fileID: 2085126384}
-  FlechaClosed: {fileID: 0}
-  FlechaDisplay: {fileID: 0}
+  FlechaClosed: {fileID: 524449282}
+  FlechaDisplay: {fileID: 1152849773}
 --- !u!1 &760229883
 GameObject:
   m_ObjectHideFlags: 0
@@ -2134,7 +2148,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &1416579771
 RectTransform:
   m_ObjectHideFlags: 0
@@ -2746,12 +2760,12 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 203273600}
-        m_MethodName: 
+      - m_Target: {fileID: 203273602}
+        m_MethodName: ZonasMigranaPressed
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: 
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
@@ -2910,8 +2924,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0, y: -75}
-  m_SizeDelta: {x: -83, y: -555}
+  m_AnchoredPosition: {x: 0, y: -120}
+  m_SizeDelta: {x: -40, y: -440}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1987333431
 MonoBehaviour:
@@ -3030,12 +3044,12 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 203273600}
-        m_MethodName: 
+      - m_Target: {fileID: 203273602}
+        m_MethodName: DistoniaPressed
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: 
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
