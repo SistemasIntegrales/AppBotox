@@ -600,7 +600,7 @@ public class ChangeTextDistonia : MonoBehaviour
 			case 38: //Obliquus Capitis || Oblicuo de la cabeza
 				InfoMusculos.text = "50-100U/VISITA \n\nIpsilateral";
 				transform.eulerAngles = new Vector3(rotX, rotY, 0f);
-				transform.Rotate(0,180,0,Space.World);
+				transform.Rotate(0,218,0,Space.World);
 				Seleccion(57, 57, true);
 				foreach (GameObject tapa in ocultarSpleniusCapitis)
 				{
