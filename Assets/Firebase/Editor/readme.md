@@ -13,7 +13,6 @@ features on *iOS* and *Android*:
 | Firebase Dynamic Links             | FirebaseDynamicLinks.unitypackage |
 | Firebase Functions                 | FirebaseFunctions.unitypackage    |
 | Firebase Instance ID               | FirebaseInstanceId.unitypackage   |
-| Firebase Invites                   | FirebaseInvites.unitypackage      |
 | Firebase Messaging                 | FirebaseMessaging.unitypackage    |
 | Firebase Realtime Database         | FirebaseDatabase.unitypackage     |
 | Firebase Remote Config             | FirebaseRemoteConfig.unitypackage |
@@ -163,6 +162,109 @@ Support
 
 Release Notes
 -------------
+### 6.1.1
+  - Overview
+    - Fixed an issue when generating Firebase config files on Windows.
+  - Changes
+    - General (Editor): Fixed an issue when generating Firebase config files on
+      Windows.
+    - General (Editor): Upgraded Play Services Resolver to from 1.2.115 to
+      1.2.116. For more information see [this
+      document](https://github.com/googlesamples/unity-jar-resolver/blob/master/CHANGELOG.md#version-12115---jun-7-2019).
+
+### 6.1.0
+  - Overview
+    - Added Auth credential persistence on Desktop, fixed and cleaned up some
+      documentation, converted testapps to use ContinueOnMainThread(), fixed
+      issues in Auth and Database, and added additional information to
+      Messaging notifications.
+  - Changes
+    - General (Editor): Removed Firebase Invites documentation from the
+      in-editor documentation.
+    - General (Editor): Fixed an issue with resource generation when Firebase
+      plugin files have been moved from their default locations.
+    - General (iOS): Fixed an issue where connections via NSURLSession
+      (used internally by the iOS SDK) can be prematurely closed by the client
+      if NSAppTransportSecurity is set to YES in the Info.plist and
+      NSAllowsArbitraryLoadsInWebContent is not set. This can be fixed by
+      setting NSAllowsArbitraryLoadsInWebContent  to the same value as
+      NSAppTransportSecurity.
+    - General (Editor): Upgraded Play Services Resolver to from 1.2.109 to
+      1.2.115. For more information see [this
+      document](https://github.com/googlesamples/unity-jar-resolver/blob/master/CHANGELOG.md#version-12115---may-28-2019).
+    - Auth (Desktop): User's credentials will now persist between sessions.  See
+      the [documentation](http://firebase.google.com/docs/auth/unity/manage-users#persist_a_users_credential)
+      for more information.
+    - Auth (Desktop): As part of the above change, if you access CurrentUser
+      immediately after creating the FirebaseAuth instance, it will block until
+      the saved user's state is finished loading.
+    - Auth (Desktop): Fixed an issue where Database/Functions/Storage might not
+      use the latest auth token immediately after sign-in.
+    - Auth (Android): Fixed an issue where an error code could get reported
+      incorrectly on Android.
+    - Crashlytics, Functions: Fixed an issue that could cause a crash during
+      shutdown due to the destruction order of plugins being nondeterministic.
+    - Database (iOS): Fixed a race condition that could cause a crash
+      when cleaning up database listeners on iOS.
+    - Database (iOS): Fixed an issue where long (64-bit) values could get
+      written to the database incorrectly (truncated to 32-bits) on 32-bit
+      devices.
+    - Messaging (Android): Added channel_id to Messaging notifications.
+
+### 6.0.0
+  - Overview
+    - Released
+      [Crashlytics](https://firebase.google.com/docs/crashlytics/get-started?platform=unity)
+      as generally available (GA); added Task.ContinueWithOnMainThread(); fixed
+      issues in the Android Resolver, iOS Resolver, Auth, Database, Messaging,
+      and Remote Config; removed Firebase Invites, removed deprecated methods in
+      Firebase Remote Config, and deprecated a method in Firebase Analytics.
+  - Changes
+    - Updated [Firebase
+      iOS](https://firebase.google.com/support/release-notes/ios#6.0.0) and
+      [Firebase
+      Android](https://firebase.google.com/support/release-notes/ios#2019-05-07)
+      dependencies.
+    - Crashlytics (iOS/Android): [Crashlytics for
+      Unity](https://firebase.google.com/docs/crashlytics/get-started?platform=unity)
+      is now generally available (GA). Get the next evolution with BigQuery
+      exports, Jira integration, and more. To migrate from Fabric Crashlytics
+      for Unity to Firebase Crashlytics, follow the [migration
+      guide](https://firebase.google.com/docs/crashlytics/migrate-from-fabric).
+    - Added an extension method, `Task.ContinueWithOnMainThread()`, which
+      forces the continuation of asynchronous operations to occur in the Unity
+      main thread rather than in a background thread.
+    - General: Upgraded Play Services Resolver to from 1.2.104 to 1.2.109. For
+      more information see [this
+      document](https://github.com/googlesamples/unity-jar-resolver/blob/master/CHANGELOG.md#version-12109---may-6-2019).
+    - General (Android): Added support for Android SDK installed directly in
+      Unity 2019.
+    - General (iOS): Fixed issues generating projects without using Cocoapods.
+    - Database (iOS/Android): Fixed an issue where integrating the SDK greatly
+      increased the size of your app.
+    - Database: Fixed exception handling during listener events.
+    - Remote Config: Fixed an issue parsing boolean values.
+    - Auth (Desktop): Fixed a crash when attempting to call Game Center
+      authentication methods from the Unity editor.
+    - Messaging (iOS/Android): Fix an issue where Subscribe and Unsubscribe
+      never returned if the API was configured not to receive a registration
+      token.
+    - Invites: Removed Firebase Invites, as it is no longer supported.
+    - Remote Config: Removed functions using config namespaces.
+    - Analytics: Deprecated SetMinimumSessionDuration.
+
+### 5.7.0
+  - Overview
+    - Fixed an issue with escape characters in Auth, deprecated functions
+      in Remote Config, and fixed an issue in the Android Resolver.
+  - Changes
+    - Auth: Fixed UserProfile.PhotoUrl removing percent encoded characters when
+      being set.
+    - Remote Config: Config namespaces are now deprecated. You'll need to switch
+      to methods that use the default namespace.
+    - General (Android): Fixed an exception on resolution in some versions of
+      Unity 2017.4 by changing how Android ABI selection is handled.
+
 ### 5.6.1
   - Overview
     - Fixed race condition on iOS SDK startup and fixed some issues in the
