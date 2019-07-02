@@ -32,11 +32,6 @@ public class SplashSequence : MonoBehaviour
 	{
 		yield return new WaitForSeconds(3);
 		SceneNumber = 2;
-		SceneManager.LoadScene(2);
+		SceneManager.LoadScene(3);
 	}
-	
-	// Update is called once per frame
-	/*void Update () {
-		
-	}*/
 }
