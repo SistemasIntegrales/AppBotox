@@ -2,14 +2,10 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
-	<key>AD_UNIT_ID_FOR_BANNER_TEST</key>
-	<string>ca-app-pub-3940256099942544/2934735716</string>
-	<key>AD_UNIT_ID_FOR_INTERSTITIAL_TEST</key>
-	<string>ca-app-pub-3940256099942544/4411468910</string>
 	<key>CLIENT_ID</key>
-	<string>694638094160-62caup21bi1pbr3ocf998r0fphcrnt5k.apps.googleusercontent.com</string>
+	<string>694638094160-1ipj01nm05ld4i5gtvpuosah9r7i7gdn.apps.googleusercontent.com</string>
 	<key>REVERSED_CLIENT_ID</key>
-	<string>com.googleusercontent.apps.694638094160-62caup21bi1pbr3ocf998r0fphcrnt5k</string>
+	<string>com.googleusercontent.apps.694638094160-1ipj01nm05ld4i5gtvpuosah9r7i7gdn</string>
 	<key>API_KEY</key>
 	<string>AIzaSyCDzIrL6bfpSo2vcBAHWunOXSy4-1MQRtI</string>
 	<key>GCM_SENDER_ID</key>
@@ -17,23 +13,23 @@
 	<key>PLIST_VERSION</key>
 	<string>1</string>
 	<key>BUNDLE_ID</key>
-	<string>com.sistemasintegrales.appbotox</string>
+	<string>com.allergan.onabont</string>
 	<key>PROJECT_ID</key>
 	<string>appbotox</string>
 	<key>STORAGE_BUCKET</key>
 	<string>appbotox.appspot.com</string>
 	<key>IS_ADS_ENABLED</key>
-	<true></true>
+	<false></false>
 	<key>IS_ANALYTICS_ENABLED</key>
 	<false></false>
 	<key>IS_APPINVITE_ENABLED</key>
-	<false></false>
+	<true></true>
 	<key>IS_GCM_ENABLED</key>
 	<true></true>
 	<key>IS_SIGNIN_ENABLED</key>
 	<true></true>
 	<key>GOOGLE_APP_ID</key>
-	<string>1:694638094160:ios:a90e38c8e29d583e</string>
+	<string>1:694638094160:ios:884eef9c12e21005</string>
 	<key>DATABASE_URL</key>
 	<string>https://appbotox.firebaseio.com</string>
 </dict>

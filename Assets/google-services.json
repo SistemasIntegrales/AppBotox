@@ -25,15 +25,58 @@
         }
       ],
       "services": {
-        "analytics_service": {
-          "status": 1
-        },
         "appinvite_service": {
-          "status": 1,
-          "other_platform_oauth_client": []
-        },
-        "ads_service": {
-          "status": 2
+          "other_platform_oauth_client": [
+            {
+              "client_id": "694638094160-en6aian3e51vib6jg479fedsd8nqo5n2.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "694638094160-1ipj01nm05ld4i5gtvpuosah9r7i7gdn.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.allergan.onabont",
+                "app_store_id": "1478809793"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:694638094160:android:28ffee6eb8654744",
+        "android_client_info": {
+          "package_name": "com.sistemasintegrales.onabont"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "694638094160-en6aian3e51vib6jg479fedsd8nqo5n2.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB1lu25Wsj_2ycYlj7nNZZLlDp6kUt42_A"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "694638094160-en6aian3e51vib6jg479fedsd8nqo5n2.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "694638094160-1ipj01nm05ld4i5gtvpuosah9r7i7gdn.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.allergan.onabont",
+                "app_store_id": "1478809793"
+              }
+            }
+          ]
         }
       }
     }
